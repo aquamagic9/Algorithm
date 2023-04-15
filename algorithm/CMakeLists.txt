@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.24)
+project(algorithm)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(gym_suit Programmers/gym_suit.cpp)
+add_executable(joystick Programmers/joystick.cpp)
+add_executable(making_big_numbers Programmers/making_big_numbers.cpp)
+add_executable(more_spicy Programmers/more_spicy.cpp)
+add_executable(11047 BOJ/11047.cpp)
+add_executable(1931 BOJ/1931.cpp)
+add_executable(18252 BOJ/18252.cpp)

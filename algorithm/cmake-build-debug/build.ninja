@@ -1,0 +1,325 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: algorithm
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target gym_suit
+
+
+#############################################
+# Order-only phony target for gym_suit
+
+build cmake_object_order_depends_target_gym_suit: phony || CMakeFiles/gym_suit.dir
+
+build CMakeFiles/gym_suit.dir/Programmers/gym_suit.cpp.o: CXX_COMPILER__gym_suit_Debug /Users/hyuncho/CLionProjects/git_algorithm/algorithm/Programmers/gym_suit.cpp || cmake_object_order_depends_target_gym_suit
+  DEP_FILE = CMakeFiles/gym_suit.dir/Programmers/gym_suit.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/gym_suit.dir
+  OBJECT_FILE_DIR = CMakeFiles/gym_suit.dir/Programmers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gym_suit
+
+
+#############################################
+# Link the executable gym_suit
+
+build gym_suit: CXX_EXECUTABLE_LINKER__gym_suit_Debug CMakeFiles/gym_suit.dir/Programmers/gym_suit.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/gym_suit.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = gym_suit
+  TARGET_PDB = gym_suit.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target joystick
+
+
+#############################################
+# Order-only phony target for joystick
+
+build cmake_object_order_depends_target_joystick: phony || CMakeFiles/joystick.dir
+
+build CMakeFiles/joystick.dir/Programmers/joystick.cpp.o: CXX_COMPILER__joystick_Debug /Users/hyuncho/CLionProjects/git_algorithm/algorithm/Programmers/joystick.cpp || cmake_object_order_depends_target_joystick
+  DEP_FILE = CMakeFiles/joystick.dir/Programmers/joystick.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/joystick.dir
+  OBJECT_FILE_DIR = CMakeFiles/joystick.dir/Programmers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target joystick
+
+
+#############################################
+# Link the executable joystick
+
+build joystick: CXX_EXECUTABLE_LINKER__joystick_Debug CMakeFiles/joystick.dir/Programmers/joystick.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/joystick.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = joystick
+  TARGET_PDB = joystick.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target making_big_numbers
+
+
+#############################################
+# Order-only phony target for making_big_numbers
+
+build cmake_object_order_depends_target_making_big_numbers: phony || CMakeFiles/making_big_numbers.dir
+
+build CMakeFiles/making_big_numbers.dir/Programmers/making_big_numbers.cpp.o: CXX_COMPILER__making_big_numbers_Debug /Users/hyuncho/CLionProjects/git_algorithm/algorithm/Programmers/making_big_numbers.cpp || cmake_object_order_depends_target_making_big_numbers
+  DEP_FILE = CMakeFiles/making_big_numbers.dir/Programmers/making_big_numbers.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/making_big_numbers.dir
+  OBJECT_FILE_DIR = CMakeFiles/making_big_numbers.dir/Programmers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target making_big_numbers
+
+
+#############################################
+# Link the executable making_big_numbers
+
+build making_big_numbers: CXX_EXECUTABLE_LINKER__making_big_numbers_Debug CMakeFiles/making_big_numbers.dir/Programmers/making_big_numbers.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/making_big_numbers.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = making_big_numbers
+  TARGET_PDB = making_big_numbers.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target more_spicy
+
+
+#############################################
+# Order-only phony target for more_spicy
+
+build cmake_object_order_depends_target_more_spicy: phony || CMakeFiles/more_spicy.dir
+
+build CMakeFiles/more_spicy.dir/Programmers/more_spicy.cpp.o: CXX_COMPILER__more_spicy_Debug /Users/hyuncho/CLionProjects/git_algorithm/algorithm/Programmers/more_spicy.cpp || cmake_object_order_depends_target_more_spicy
+  DEP_FILE = CMakeFiles/more_spicy.dir/Programmers/more_spicy.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/more_spicy.dir
+  OBJECT_FILE_DIR = CMakeFiles/more_spicy.dir/Programmers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target more_spicy
+
+
+#############################################
+# Link the executable more_spicy
+
+build more_spicy: CXX_EXECUTABLE_LINKER__more_spicy_Debug CMakeFiles/more_spicy.dir/Programmers/more_spicy.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/more_spicy.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = more_spicy
+  TARGET_PDB = more_spicy.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11047
+
+
+#############################################
+# Order-only phony target for 11047
+
+build cmake_object_order_depends_target_11047: phony || CMakeFiles/11047.dir
+
+build CMakeFiles/11047.dir/BOJ/11047.cpp.o: CXX_COMPILER__11047_Debug /Users/hyuncho/CLionProjects/git_algorithm/algorithm/BOJ/11047.cpp || cmake_object_order_depends_target_11047
+  DEP_FILE = CMakeFiles/11047.dir/BOJ/11047.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/11047.dir
+  OBJECT_FILE_DIR = CMakeFiles/11047.dir/BOJ
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11047
+
+
+#############################################
+# Link the executable 11047
+
+build 11047: CXX_EXECUTABLE_LINKER__11047_Debug CMakeFiles/11047.dir/BOJ/11047.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/11047.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11047
+  TARGET_PDB = 11047.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1931
+
+
+#############################################
+# Order-only phony target for 1931
+
+build cmake_object_order_depends_target_1931: phony || CMakeFiles/1931.dir
+
+build CMakeFiles/1931.dir/BOJ/1931.cpp.o: CXX_COMPILER__1931_Debug /Users/hyuncho/CLionProjects/git_algorithm/algorithm/BOJ/1931.cpp || cmake_object_order_depends_target_1931
+  DEP_FILE = CMakeFiles/1931.dir/BOJ/1931.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/1931.dir
+  OBJECT_FILE_DIR = CMakeFiles/1931.dir/BOJ
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1931
+
+
+#############################################
+# Link the executable 1931
+
+build 1931: CXX_EXECUTABLE_LINKER__1931_Debug CMakeFiles/1931.dir/BOJ/1931.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/1931.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1931
+  TARGET_PDB = 1931.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 18252
+
+
+#############################################
+# Order-only phony target for 18252
+
+build cmake_object_order_depends_target_18252: phony || CMakeFiles/18252.dir
+
+build CMakeFiles/18252.dir/BOJ/18252.cpp.o: CXX_COMPILER__18252_Debug /Users/hyuncho/CLionProjects/git_algorithm/algorithm/BOJ/18252.cpp || cmake_object_order_depends_target_18252
+  DEP_FILE = CMakeFiles/18252.dir/BOJ/18252.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/18252.dir
+  OBJECT_FILE_DIR = CMakeFiles/18252.dir/BOJ
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 18252
+
+
+#############################################
+# Link the executable 18252
+
+build 18252: CXX_EXECUTABLE_LINKER__18252_Debug CMakeFiles/18252.dir/BOJ/18252.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/18252.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 18252
+  TARGET_PDB = 18252.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/hyuncho/CLionProjects/git_algorithm/algorithm -B/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug
+
+build all: phony gym_suit joystick making_big_numbers more_spicy 11047 1931 18252
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/hyuncho/CLionProjects/git_algorithm/algorithm/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/hyuncho/CLionProjects/git_algorithm/algorithm/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

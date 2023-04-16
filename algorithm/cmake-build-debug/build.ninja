@@ -304,6 +304,39 @@ build 9935.exe: CXX_EXECUTABLE_LINKER__9935_Debug CMakeFiles/9935.dir/BOJ/9935.c
   TARGET_IMPLIB = lib9935.dll.a
   TARGET_PDB = 9935.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 17299
+
+
+#############################################
+# Order-only phony target for 17299
+
+build cmake_object_order_depends_target_17299: phony || CMakeFiles/17299.dir
+
+build CMakeFiles/17299.dir/BOJ/17299.cpp.obj: CXX_COMPILER__17299_Debug C$:/Users/happy/Myalgorithm/Algorithm/algorithm/BOJ/17299.cpp || cmake_object_order_depends_target_17299
+  DEP_FILE = CMakeFiles\17299.dir\BOJ\17299.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\17299.dir
+  OBJECT_FILE_DIR = CMakeFiles\17299.dir\BOJ
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 17299
+
+
+#############################################
+# Link the executable 17299.exe
+
+build 17299.exe: CXX_EXECUTABLE_LINKER__17299_Debug CMakeFiles/17299.dir/BOJ/17299.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\17299.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 17299.exe
+  TARGET_IMPLIB = lib17299.dll.a
+  TARGET_PDB = 17299.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -332,6 +365,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 11047: phony 11047.exe
 
+build 17299: phony 17299.exe
+
 build 18252: phony 18252.exe
 
 build 1931: phony 1931.exe
@@ -354,7 +389,7 @@ build more_spicy: phony more_spicy.exe
 #############################################
 # Folder: C:/Users/happy/Myalgorithm/Algorithm/algorithm/cmake-build-debug
 
-build all: phony gym_suit.exe joystick.exe making_big_numbers.exe more_spicy.exe 11047.exe 1931.exe 18252.exe 9935.exe
+build all: phony gym_suit.exe joystick.exe making_big_numbers.exe more_spicy.exe 11047.exe 1931.exe 18252.exe 9935.exe 17299.exe
 
 # =============================================================================
 # Built-in targets

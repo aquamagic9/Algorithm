@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "algorithm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "11047::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11047-Debug-fb1c4bf0abe6a21aba5c.json",
+					"name" : "11047",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "18252::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-18252-Debug-27aaeeecefcce436a4d2.json",
+					"name" : "18252",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1931::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1931-Debug-5de19ba22546c485c09d.json",
+					"name" : "1931",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "9935::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-9935-Debug-9b6794a6f9da0397e61f.json",
+					"name" : "9935",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gym_suit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gym_suit-Debug-ddc8fe5e51a973e348b0.json",
+					"name" : "gym_suit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick-Debug-f9a8bd5593d130399820.json",
+					"name" : "joystick",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "making_big_numbers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-making_big_numbers-Debug-43ab5b82905287eb0f57.json",
+					"name" : "making_big_numbers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "more_spicy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-more_spicy-Debug-550f2f002a5ee809eb60.json",
+					"name" : "more_spicy",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/happy/Myalgorithm/Algorithm/algorithm/cmake-build-debug",
+		"source" : "C:/Users/happy/Myalgorithm/Algorithm/algorithm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

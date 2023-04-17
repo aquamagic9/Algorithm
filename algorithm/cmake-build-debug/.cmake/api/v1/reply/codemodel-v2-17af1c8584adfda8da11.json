@@ -25,7 +25,9 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11,
+						12
 					]
 				}
 			],
@@ -50,12 +52,21 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11,
+						12
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "10986::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10986-Debug-cf283523fb815922b2c3.json",
+					"name" : "10986",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "11047::@6890427a1f51a3e7e1df",
@@ -75,6 +86,13 @@
 					"id" : "1328::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-1328-Debug-9ecbdc766dd36d8d7adb.json",
 					"name" : "1328",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1557::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1557-Debug-476b872a73667ed0ba59.json",
+					"name" : "1557",
 					"projectIndex" : 0
 				},
 				{

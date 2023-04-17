@@ -347,6 +347,37 @@ build 11660: CXX_EXECUTABLE_LINKER__11660_Debug CMakeFiles/11660.dir/BOJ/11660.c
   TARGET_FILE = 11660
   TARGET_PDB = 11660.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1328
+
+
+#############################################
+# Order-only phony target for 1328
+
+build cmake_object_order_depends_target_1328: phony || CMakeFiles/1328.dir
+
+build CMakeFiles/1328.dir/BOJ/1328.cpp.o: CXX_COMPILER__1328_Debug /Users/hyuncho/CLionProjects/git_algorithm/algorithm/BOJ/1328.cpp || cmake_object_order_depends_target_1328
+  DEP_FILE = CMakeFiles/1328.dir/BOJ/1328.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/1328.dir
+  OBJECT_FILE_DIR = CMakeFiles/1328.dir/BOJ
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1328
+
+
+#############################################
+# Link the executable 1328
+
+build 1328: CXX_EXECUTABLE_LINKER__1328_Debug CMakeFiles/1328.dir/BOJ/1328.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/1328.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1328
+  TARGET_PDB = 1328.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -381,7 +412,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug
 
-build all: phony gym_suit joystick making_big_numbers more_spicy 11047 1931 18252 9935 17299 11660
+build all: phony gym_suit joystick making_big_numbers more_spicy 11047 1931 18252 9935 17299 11660 1328
 
 # =============================================================================
 # Built-in targets

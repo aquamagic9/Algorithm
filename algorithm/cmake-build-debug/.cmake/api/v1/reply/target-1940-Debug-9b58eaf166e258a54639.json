@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "11660.exe"
+			"path" : "1940.exe"
 		},
 		{
-			"path" : "11660.pdb"
+			"path" : "1940.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 22,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "11660::@6890427a1f51a3e7e1df",
+	"id" : "1940::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "11660",
-	"nameOnDisk" : "11660.exe",
+	"name" : "1940",
+	"nameOnDisk" : "1940.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "BOJ/11660.cpp",
+			"path" : "BOJ/1940.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

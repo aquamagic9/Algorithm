@@ -350,6 +350,19 @@ cutting_n_by_n_array/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/12891.dir/build.make CMakeFiles/12891.dir/build
 .PHONY : 12891/fast
 
+#=============================================================================
+# Target rules for targets named 11049
+
+# Build rule for target.
+11049: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11049
+.PHONY : 11049
+
+# fast build rule for target.
+11049/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11049.dir/build.make CMakeFiles/11049.dir/build
+.PHONY : 11049/fast
+
 BOJ/10986.o: BOJ/10986.cpp.o
 .PHONY : BOJ/10986.o
 
@@ -397,6 +410,30 @@ BOJ/11047.s: BOJ/11047.cpp.s
 BOJ/11047.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/11047.dir/build.make CMakeFiles/11047.dir/BOJ/11047.cpp.s
 .PHONY : BOJ/11047.cpp.s
+
+BOJ/11049.o: BOJ/11049.cpp.o
+.PHONY : BOJ/11049.o
+
+# target to build an object file
+BOJ/11049.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11049.dir/build.make CMakeFiles/11049.dir/BOJ/11049.cpp.o
+.PHONY : BOJ/11049.cpp.o
+
+BOJ/11049.i: BOJ/11049.cpp.i
+.PHONY : BOJ/11049.i
+
+# target to preprocess a source file
+BOJ/11049.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11049.dir/build.make CMakeFiles/11049.dir/BOJ/11049.cpp.i
+.PHONY : BOJ/11049.cpp.i
+
+BOJ/11049.s: BOJ/11049.cpp.s
+.PHONY : BOJ/11049.s
+
+# target to generate assembly for a file
+BOJ/11049.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11049.dir/build.make CMakeFiles/11049.dir/BOJ/11049.cpp.s
+.PHONY : BOJ/11049.cpp.s
 
 BOJ/11660.o: BOJ/11660.cpp.o
 .PHONY : BOJ/11660.o
@@ -792,6 +829,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 10986"
 	@echo "... 11047"
+	@echo "... 11049"
 	@echo "... 11660"
 	@echo "... 1253"
 	@echo "... 12891"
@@ -814,6 +852,9 @@ help:
 	@echo "... BOJ/11047.o"
 	@echo "... BOJ/11047.i"
 	@echo "... BOJ/11047.s"
+	@echo "... BOJ/11049.o"
+	@echo "... BOJ/11049.i"
+	@echo "... BOJ/11049.s"
 	@echo "... BOJ/11660.o"
 	@echo "... BOJ/11660.i"
 	@echo "... BOJ/11660.s"

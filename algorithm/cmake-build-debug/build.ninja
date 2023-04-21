@@ -173,6 +173,39 @@ build more_spicy.exe: CXX_EXECUTABLE_LINKER__more_spicy_Debug CMakeFiles/more_sp
   TARGET_PDB = more_spicy.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target cutting_n_by_n_array
+
+
+#############################################
+# Order-only phony target for cutting_n_by_n_array
+
+build cmake_object_order_depends_target_cutting_n_by_n_array: phony || CMakeFiles/cutting_n_by_n_array.dir
+
+build CMakeFiles/cutting_n_by_n_array.dir/Programmers/cutting_n_by_n_array.cpp.obj: CXX_COMPILER__cutting_n_by_n_array_Debug C$:/Users/happy/Myalgorithm/Algorithm/algorithm/Programmers/cutting_n_by_n_array.cpp || cmake_object_order_depends_target_cutting_n_by_n_array
+  DEP_FILE = CMakeFiles\cutting_n_by_n_array.dir\Programmers\cutting_n_by_n_array.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cutting_n_by_n_array.dir
+  OBJECT_FILE_DIR = CMakeFiles\cutting_n_by_n_array.dir\Programmers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cutting_n_by_n_array
+
+
+#############################################
+# Link the executable cutting_n_by_n_array.exe
+
+build cutting_n_by_n_array.exe: CXX_EXECUTABLE_LINKER__cutting_n_by_n_array_Debug CMakeFiles/cutting_n_by_n_array.dir/Programmers/cutting_n_by_n_array.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\cutting_n_by_n_array.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cutting_n_by_n_array.exe
+  TARGET_IMPLIB = libcutting_n_by_n_array.dll.a
+  TARGET_PDB = cutting_n_by_n_array.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 11047
 
 
@@ -653,6 +686,8 @@ build 2018: phony 2018.exe
 
 build 9935: phony 9935.exe
 
+build cutting_n_by_n_array: phony cutting_n_by_n_array.exe
+
 build gym_suit: phony gym_suit.exe
 
 build joystick: phony joystick.exe
@@ -669,7 +704,7 @@ build more_spicy: phony more_spicy.exe
 #############################################
 # Folder: C:/Users/happy/Myalgorithm/Algorithm/algorithm/cmake-build-debug
 
-build all: phony gym_suit.exe joystick.exe making_big_numbers.exe more_spicy.exe 11047.exe 1931.exe 18252.exe 9935.exe 17299.exe 11660.exe 1328.exe 10986.exe 1557.exe 2018.exe 1940.exe 1253.exe 12891.exe
+build all: phony gym_suit.exe joystick.exe making_big_numbers.exe more_spicy.exe cutting_n_by_n_array.exe 11047.exe 1931.exe 18252.exe 9935.exe 17299.exe 11660.exe 1328.exe 10986.exe 1557.exe 2018.exe 1940.exe 1253.exe 12891.exe
 
 # =============================================================================
 # Built-in targets

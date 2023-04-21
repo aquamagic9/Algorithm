@@ -67,6 +67,7 @@ all: CMakeFiles/gym_suit.dir/all
 all: CMakeFiles/joystick.dir/all
 all: CMakeFiles/making_big_numbers.dir/all
 all: CMakeFiles/more_spicy.dir/all
+all: CMakeFiles/cutting_n_by_n_array.dir/all
 all: CMakeFiles/11047.dir/all
 all: CMakeFiles/1931.dir/all
 all: CMakeFiles/18252.dir/all
@@ -91,6 +92,7 @@ clean: CMakeFiles/gym_suit.dir/clean
 clean: CMakeFiles/joystick.dir/clean
 clean: CMakeFiles/making_big_numbers.dir/clean
 clean: CMakeFiles/more_spicy.dir/clean
+clean: CMakeFiles/cutting_n_by_n_array.dir/clean
 clean: CMakeFiles/11047.dir/clean
 clean: CMakeFiles/1931.dir/clean
 clean: CMakeFiles/18252.dir/clean
@@ -113,7 +115,7 @@ clean: CMakeFiles/12891.dir/clean
 CMakeFiles/gym_suit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym_suit.dir/build.make CMakeFiles/gym_suit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym_suit.dir/build.make CMakeFiles/gym_suit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target gym_suit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target gym_suit"
 .PHONY : CMakeFiles/gym_suit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -139,7 +141,7 @@ CMakeFiles/gym_suit.dir/clean:
 CMakeFiles/joystick.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joystick.dir/build.make CMakeFiles/joystick.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joystick.dir/build.make CMakeFiles/joystick.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target joystick"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target joystick"
 .PHONY : CMakeFiles/joystick.dir/all
 
 # Build rule for subdir invocation for target.
@@ -165,7 +167,7 @@ CMakeFiles/joystick.dir/clean:
 CMakeFiles/making_big_numbers.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/making_big_numbers.dir/build.make CMakeFiles/making_big_numbers.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/making_big_numbers.dir/build.make CMakeFiles/making_big_numbers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target making_big_numbers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target making_big_numbers"
 .PHONY : CMakeFiles/making_big_numbers.dir/all
 
 # Build rule for subdir invocation for target.
@@ -191,7 +193,7 @@ CMakeFiles/making_big_numbers.dir/clean:
 CMakeFiles/more_spicy.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_spicy.dir/build.make CMakeFiles/more_spicy.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_spicy.dir/build.make CMakeFiles/more_spicy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target more_spicy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target more_spicy"
 .PHONY : CMakeFiles/more_spicy.dir/all
 
 # Build rule for subdir invocation for target.
@@ -209,6 +211,32 @@ more_spicy: CMakeFiles/more_spicy.dir/rule
 CMakeFiles/more_spicy.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_spicy.dir/build.make CMakeFiles/more_spicy.dir/clean
 .PHONY : CMakeFiles/more_spicy.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/cutting_n_by_n_array.dir
+
+# All Build rule for target.
+CMakeFiles/cutting_n_by_n_array.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutting_n_by_n_array.dir/build.make CMakeFiles/cutting_n_by_n_array.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutting_n_by_n_array.dir/build.make CMakeFiles/cutting_n_by_n_array.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target cutting_n_by_n_array"
+.PHONY : CMakeFiles/cutting_n_by_n_array.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cutting_n_by_n_array.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cutting_n_by_n_array.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/cutting_n_by_n_array.dir/rule
+
+# Convenience name for target.
+cutting_n_by_n_array: CMakeFiles/cutting_n_by_n_array.dir/rule
+.PHONY : cutting_n_by_n_array
+
+# clean rule for target.
+CMakeFiles/cutting_n_by_n_array.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutting_n_by_n_array.dir/build.make CMakeFiles/cutting_n_by_n_array.dir/clean
+.PHONY : CMakeFiles/cutting_n_by_n_array.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/11047.dir

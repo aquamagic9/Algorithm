@@ -169,6 +169,19 @@ more_spicy/fast:
 .PHONY : more_spicy/fast
 
 #=============================================================================
+# Target rules for targets named cutting_n_by_n_array
+
+# Build rule for target.
+cutting_n_by_n_array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutting_n_by_n_array
+.PHONY : cutting_n_by_n_array
+
+# fast build rule for target.
+cutting_n_by_n_array/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutting_n_by_n_array.dir/build.make CMakeFiles/cutting_n_by_n_array.dir/build
+.PHONY : cutting_n_by_n_array/fast
+
+#=============================================================================
 # Target rules for targets named 11047
 
 # Build rule for target.
@@ -649,6 +662,30 @@ BOJ/9935.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/9935.dir/build.make CMakeFiles/9935.dir/BOJ/9935.cpp.s
 .PHONY : BOJ/9935.cpp.s
 
+Programmers/cutting_n_by_n_array.o: Programmers/cutting_n_by_n_array.cpp.o
+.PHONY : Programmers/cutting_n_by_n_array.o
+
+# target to build an object file
+Programmers/cutting_n_by_n_array.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutting_n_by_n_array.dir/build.make CMakeFiles/cutting_n_by_n_array.dir/Programmers/cutting_n_by_n_array.cpp.o
+.PHONY : Programmers/cutting_n_by_n_array.cpp.o
+
+Programmers/cutting_n_by_n_array.i: Programmers/cutting_n_by_n_array.cpp.i
+.PHONY : Programmers/cutting_n_by_n_array.i
+
+# target to preprocess a source file
+Programmers/cutting_n_by_n_array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutting_n_by_n_array.dir/build.make CMakeFiles/cutting_n_by_n_array.dir/Programmers/cutting_n_by_n_array.cpp.i
+.PHONY : Programmers/cutting_n_by_n_array.cpp.i
+
+Programmers/cutting_n_by_n_array.s: Programmers/cutting_n_by_n_array.cpp.s
+.PHONY : Programmers/cutting_n_by_n_array.s
+
+# target to generate assembly for a file
+Programmers/cutting_n_by_n_array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutting_n_by_n_array.dir/build.make CMakeFiles/cutting_n_by_n_array.dir/Programmers/cutting_n_by_n_array.cpp.s
+.PHONY : Programmers/cutting_n_by_n_array.cpp.s
+
 Programmers/gym_suit.o: Programmers/gym_suit.cpp.o
 .PHONY : Programmers/gym_suit.o
 
@@ -766,6 +803,7 @@ help:
 	@echo "... 1940"
 	@echo "... 2018"
 	@echo "... 9935"
+	@echo "... cutting_n_by_n_array"
 	@echo "... gym_suit"
 	@echo "... joystick"
 	@echo "... making_big_numbers"
@@ -809,6 +847,9 @@ help:
 	@echo "... BOJ/9935.o"
 	@echo "... BOJ/9935.i"
 	@echo "... BOJ/9935.s"
+	@echo "... Programmers/cutting_n_by_n_array.o"
+	@echo "... Programmers/cutting_n_by_n_array.i"
+	@echo "... Programmers/cutting_n_by_n_array.s"
 	@echo "... Programmers/gym_suit.o"
 	@echo "... Programmers/gym_suit.i"
 	@echo "... Programmers/gym_suit.s"

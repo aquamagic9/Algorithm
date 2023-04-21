@@ -1,0 +1,204 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "algorithm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "10986::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10986-Debug-cf283523fb815922b2c3.json",
+					"name" : "10986",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11047::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11047-Debug-6e246df22cc768058616.json",
+					"name" : "11047",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11660::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11660-Debug-45542343bac451e457f8.json",
+					"name" : "11660",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1253::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1253-Debug-2860757cd3d94bf11913.json",
+					"name" : "1253",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "12891::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-12891-Debug-544b2d16260d914cb6a8.json",
+					"name" : "12891",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1328::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1328-Debug-9ecbdc766dd36d8d7adb.json",
+					"name" : "1328",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1557::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1557-Debug-476b872a73667ed0ba59.json",
+					"name" : "1557",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "17299::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-17299-Debug-fd4b4377a89be87a45f7.json",
+					"name" : "17299",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "18252::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-18252-Debug-0f03e119d53092609677.json",
+					"name" : "18252",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1931::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1931-Debug-ced2de01e77b5c1a2be5.json",
+					"name" : "1931",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1940::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1940-Debug-54a11c5113a36c56357a.json",
+					"name" : "1940",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2018::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2018-Debug-4a0d79d6187f4ef0985c.json",
+					"name" : "2018",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "9935::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-9935-Debug-e71dbb9f02b8b6f6e66b.json",
+					"name" : "9935",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gym_suit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gym_suit-Debug-aefb1c99b2748aa155c0.json",
+					"name" : "gym_suit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick-Debug-5f44266e7ad4dc771f8b.json",
+					"name" : "joystick",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "making_big_numbers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-making_big_numbers-Debug-b7e05bb16d41b0b1ccd2.json",
+					"name" : "making_big_numbers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "more_spicy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-more_spicy-Debug-a8085917b5b5bd4a89cb.json",
+					"name" : "more_spicy",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug",
+		"source" : "/Users/hyuncho/CLionProjects/git_algorithm/algorithm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

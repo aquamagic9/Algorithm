@@ -182,6 +182,19 @@ cutting_n_by_n_array/fast:
 .PHONY : cutting_n_by_n_array/fast
 
 #=============================================================================
+# Target rules for targets named english_word_chain
+
+# Build rule for target.
+english_word_chain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 english_word_chain
+.PHONY : english_word_chain
+
+# fast build rule for target.
+english_word_chain/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/english_word_chain.dir/build.make CMakeFiles/english_word_chain.dir/build
+.PHONY : english_word_chain/fast
+
+#=============================================================================
 # Target rules for targets named 11047
 
 # Build rule for target.
@@ -723,6 +736,30 @@ Programmers/cutting_n_by_n_array.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutting_n_by_n_array.dir/build.make CMakeFiles/cutting_n_by_n_array.dir/Programmers/cutting_n_by_n_array.cpp.s
 .PHONY : Programmers/cutting_n_by_n_array.cpp.s
 
+Programmers/english_word_chain.o: Programmers/english_word_chain.cpp.o
+.PHONY : Programmers/english_word_chain.o
+
+# target to build an object file
+Programmers/english_word_chain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/english_word_chain.dir/build.make CMakeFiles/english_word_chain.dir/Programmers/english_word_chain.cpp.o
+.PHONY : Programmers/english_word_chain.cpp.o
+
+Programmers/english_word_chain.i: Programmers/english_word_chain.cpp.i
+.PHONY : Programmers/english_word_chain.i
+
+# target to preprocess a source file
+Programmers/english_word_chain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/english_word_chain.dir/build.make CMakeFiles/english_word_chain.dir/Programmers/english_word_chain.cpp.i
+.PHONY : Programmers/english_word_chain.cpp.i
+
+Programmers/english_word_chain.s: Programmers/english_word_chain.cpp.s
+.PHONY : Programmers/english_word_chain.s
+
+# target to generate assembly for a file
+Programmers/english_word_chain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/english_word_chain.dir/build.make CMakeFiles/english_word_chain.dir/Programmers/english_word_chain.cpp.s
+.PHONY : Programmers/english_word_chain.cpp.s
+
 Programmers/gym_suit.o: Programmers/gym_suit.cpp.o
 .PHONY : Programmers/gym_suit.o
 
@@ -842,6 +879,7 @@ help:
 	@echo "... 2018"
 	@echo "... 9935"
 	@echo "... cutting_n_by_n_array"
+	@echo "... english_word_chain"
 	@echo "... gym_suit"
 	@echo "... joystick"
 	@echo "... making_big_numbers"
@@ -891,6 +929,9 @@ help:
 	@echo "... Programmers/cutting_n_by_n_array.o"
 	@echo "... Programmers/cutting_n_by_n_array.i"
 	@echo "... Programmers/cutting_n_by_n_array.s"
+	@echo "... Programmers/english_word_chain.o"
+	@echo "... Programmers/english_word_chain.i"
+	@echo "... Programmers/english_word_chain.s"
 	@echo "... Programmers/gym_suit.o"
 	@echo "... Programmers/gym_suit.i"
 	@echo "... Programmers/gym_suit.s"

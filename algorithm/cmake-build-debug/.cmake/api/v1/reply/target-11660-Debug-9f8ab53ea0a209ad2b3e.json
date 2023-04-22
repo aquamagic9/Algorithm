@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "9935"
+			"path" : "11660"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 19,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "9935::@6890427a1f51a3e7e1df",
+	"id" : "11660::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -72,8 +72,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "9935",
-	"nameOnDisk" : "9935",
+	"name" : "11660",
+	"nameOnDisk" : "11660",
 	"paths" : 
 	{
 		"build" : ".",
@@ -94,7 +94,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "BOJ/9935.cpp",
+			"path" : "BOJ/11660.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

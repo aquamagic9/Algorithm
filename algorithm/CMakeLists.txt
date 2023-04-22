@@ -8,6 +8,8 @@ add_executable(joystick Programmers/joystick.cpp)
 add_executable(making_big_numbers Programmers/making_big_numbers.cpp)
 add_executable(more_spicy Programmers/more_spicy.cpp)
 add_executable(cutting_n_by_n_array Programmers/cutting_n_by_n_array.cpp)
+add_executable(english_word_chain Programmers/english_word_chain.cpp)
+
 
 add_executable(11047 BOJ/11047.cpp)
 add_executable(1931 BOJ/1931.cpp)

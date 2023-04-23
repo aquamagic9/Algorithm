@@ -195,6 +195,19 @@ english_word_chain/fast:
 .PHONY : english_word_chain/fast
 
 #=============================================================================
+# Target rules for targets named carpet
+
+# Build rule for target.
+carpet: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 carpet
+.PHONY : carpet
+
+# fast build rule for target.
+carpet/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carpet.dir/build.make CMakeFiles/carpet.dir/build
+.PHONY : carpet/fast
+
+#=============================================================================
 # Target rules for targets named 11047
 
 # Build rule for target.
@@ -712,6 +725,30 @@ BOJ/9935.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/9935.dir/build.make CMakeFiles/9935.dir/BOJ/9935.cpp.s
 .PHONY : BOJ/9935.cpp.s
 
+Programmers/carpet.o: Programmers/carpet.cpp.o
+.PHONY : Programmers/carpet.o
+
+# target to build an object file
+Programmers/carpet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carpet.dir/build.make CMakeFiles/carpet.dir/Programmers/carpet.cpp.o
+.PHONY : Programmers/carpet.cpp.o
+
+Programmers/carpet.i: Programmers/carpet.cpp.i
+.PHONY : Programmers/carpet.i
+
+# target to preprocess a source file
+Programmers/carpet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carpet.dir/build.make CMakeFiles/carpet.dir/Programmers/carpet.cpp.i
+.PHONY : Programmers/carpet.cpp.i
+
+Programmers/carpet.s: Programmers/carpet.cpp.s
+.PHONY : Programmers/carpet.s
+
+# target to generate assembly for a file
+Programmers/carpet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carpet.dir/build.make CMakeFiles/carpet.dir/Programmers/carpet.cpp.s
+.PHONY : Programmers/carpet.cpp.s
+
 Programmers/cutting_n_by_n_array.o: Programmers/cutting_n_by_n_array.cpp.o
 .PHONY : Programmers/cutting_n_by_n_array.o
 
@@ -878,6 +915,7 @@ help:
 	@echo "... 1940"
 	@echo "... 2018"
 	@echo "... 9935"
+	@echo "... carpet"
 	@echo "... cutting_n_by_n_array"
 	@echo "... english_word_chain"
 	@echo "... gym_suit"
@@ -926,6 +964,9 @@ help:
 	@echo "... BOJ/9935.o"
 	@echo "... BOJ/9935.i"
 	@echo "... BOJ/9935.s"
+	@echo "... Programmers/carpet.o"
+	@echo "... Programmers/carpet.i"
+	@echo "... Programmers/carpet.s"
 	@echo "... Programmers/cutting_n_by_n_array.o"
 	@echo "... Programmers/cutting_n_by_n_array.i"
 	@echo "... Programmers/cutting_n_by_n_array.s"

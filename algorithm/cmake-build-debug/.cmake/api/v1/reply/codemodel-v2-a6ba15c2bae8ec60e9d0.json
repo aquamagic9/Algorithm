@@ -33,7 +33,8 @@
 						15,
 						16,
 						17,
-						18
+						18,
+						19
 					]
 				}
 			],
@@ -66,7 +67,8 @@
 						15,
 						16,
 						17,
-						18
+						18,
+						19
 					]
 				}
 			],
@@ -140,6 +142,13 @@
 					"id" : "18252::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-18252-Debug-304ac8ebcc62a9299c43.json",
 					"name" : "18252",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1874::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1874-Debug-7a47806b7a61fd8274f6.json",
+					"name" : "1874",
 					"projectIndex" : 0
 				},
 				{

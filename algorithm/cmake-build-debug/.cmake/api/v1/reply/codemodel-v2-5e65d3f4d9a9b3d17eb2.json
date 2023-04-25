@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "algorithm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "10986::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10986-Debug-bce040adc3b6a1449b13.json",
+					"name" : "10986",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11003::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11003-Debug-c2ffb5bbda011a705fbe.json",
+					"name" : "11003",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11047::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11047-Debug-a96a9c1773c581c1ebf6.json",
+					"name" : "11047",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11049::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11049-Debug-93e3a1f3b653482aae98.json",
+					"name" : "11049",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11660::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11660-Debug-8930c6514eaf2808c901.json",
+					"name" : "11660",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1253::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1253-Debug-fd7f317094246d38833e.json",
+					"name" : "1253",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "12891::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-12891-Debug-4d24d6493da2e34ace4c.json",
+					"name" : "12891",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1328::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1328-Debug-68a08f9c10de2de5b90e.json",
+					"name" : "1328",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1557::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1557-Debug-3bb0d1fb77818b322acb.json",
+					"name" : "1557",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "17298::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-17298-Debug-bd481b45cb0f2b1a0dc6.json",
+					"name" : "17298",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "17299::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-17299-Debug-bae5df1deae73a75d9c6.json",
+					"name" : "17299",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "18252::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-18252-Debug-17d908794a4e16fb4c42.json",
+					"name" : "18252",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1874::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1874-Debug-ce6ba23d8509f4de7e4e.json",
+					"name" : "1874",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1931::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1931-Debug-f56b06c70051551d9041.json",
+					"name" : "1931",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1940::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1940-Debug-69115a3448681e17d38a.json",
+					"name" : "1940",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2018::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2018-Debug-c38799b59fe9e4d4d442.json",
+					"name" : "2018",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "9935::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-9935-Debug-0925147e2436cf3e0565.json",
+					"name" : "9935",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "carpet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-carpet-Debug-1c4ac325600a32032338.json",
+					"name" : "carpet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cutting_n_by_n_array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cutting_n_by_n_array-Debug-2ad6f445d42ad0e5d38b.json",
+					"name" : "cutting_n_by_n_array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "english_word_chain::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-english_word_chain-Debug-8d40fa0d88452e5fd917.json",
+					"name" : "english_word_chain",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gym_suit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gym_suit-Debug-ddc8fe5e51a973e348b0.json",
+					"name" : "gym_suit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick-Debug-f9a8bd5593d130399820.json",
+					"name" : "joystick",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "making_big_numbers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-making_big_numbers-Debug-43ab5b82905287eb0f57.json",
+					"name" : "making_big_numbers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "more_spicy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-more_spicy-Debug-550f2f002a5ee809eb60.json",
+					"name" : "more_spicy",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/happy/Myalgorithm/Algorithm/algorithm/cmake-build-debug",
+		"source" : "C:/Users/happy/Myalgorithm/Algorithm/algorithm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

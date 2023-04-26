@@ -208,6 +208,19 @@ carpet/fast:
 .PHONY : carpet/fast
 
 #=============================================================================
+# Target rules for targets named lifeboat
+
+# Build rule for target.
+lifeboat: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lifeboat
+.PHONY : lifeboat
+
+# fast build rule for target.
+lifeboat/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lifeboat.dir/build.make CMakeFiles/lifeboat.dir/build
+.PHONY : lifeboat/fast
+
+#=============================================================================
 # Target rules for targets named 11047
 
 # Build rule for target.
@@ -845,6 +858,30 @@ Programmers/joystick.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joystick.dir/build.make CMakeFiles/joystick.dir/Programmers/joystick.cpp.s
 .PHONY : Programmers/joystick.cpp.s
 
+Programmers/lifeboat.o: Programmers/lifeboat.cpp.o
+.PHONY : Programmers/lifeboat.o
+
+# target to build an object file
+Programmers/lifeboat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lifeboat.dir/build.make CMakeFiles/lifeboat.dir/Programmers/lifeboat.cpp.o
+.PHONY : Programmers/lifeboat.cpp.o
+
+Programmers/lifeboat.i: Programmers/lifeboat.cpp.i
+.PHONY : Programmers/lifeboat.i
+
+# target to preprocess a source file
+Programmers/lifeboat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lifeboat.dir/build.make CMakeFiles/lifeboat.dir/Programmers/lifeboat.cpp.i
+.PHONY : Programmers/lifeboat.cpp.i
+
+Programmers/lifeboat.s: Programmers/lifeboat.cpp.s
+.PHONY : Programmers/lifeboat.s
+
+# target to generate assembly for a file
+Programmers/lifeboat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lifeboat.dir/build.make CMakeFiles/lifeboat.dir/Programmers/lifeboat.cpp.s
+.PHONY : Programmers/lifeboat.cpp.s
+
 Programmers/making_big_numbers.o: Programmers/making_big_numbers.cpp.o
 .PHONY : Programmers/making_big_numbers.o
 
@@ -920,6 +957,7 @@ help:
 	@echo "... english_word_chain"
 	@echo "... gym_suit"
 	@echo "... joystick"
+	@echo "... lifeboat"
 	@echo "... making_big_numbers"
 	@echo "... more_spicy"
 	@echo "... BOJ/10986.o"
@@ -979,6 +1017,9 @@ help:
 	@echo "... Programmers/joystick.o"
 	@echo "... Programmers/joystick.i"
 	@echo "... Programmers/joystick.s"
+	@echo "... Programmers/lifeboat.o"
+	@echo "... Programmers/lifeboat.i"
+	@echo "... Programmers/lifeboat.s"
 	@echo "... Programmers/making_big_numbers.o"
 	@echo "... Programmers/making_big_numbers.i"
 	@echo "... Programmers/making_big_numbers.s"

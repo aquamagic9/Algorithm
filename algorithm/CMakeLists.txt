@@ -11,6 +11,7 @@ add_executable(cutting_n_by_n_array Programmers/cutting_n_by_n_array.cpp)
 add_executable(english_word_chain Programmers/english_word_chain.cpp)
 add_executable(carpet Programmers/carpet.cpp)
 add_executable(lifeboat Programmers/lifeboat.cpp)
+add_executable(kth_number Programmers/kth_number.cpp)
 
 
 

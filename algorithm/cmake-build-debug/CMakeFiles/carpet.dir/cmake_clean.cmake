@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/carpet.dir/Programmers/carpet.cpp.o"
-  "CMakeFiles/carpet.dir/Programmers/carpet.cpp.o.d"
-  "carpet"
+  "CMakeFiles/carpet.dir/Programmers/carpet.cpp.obj"
+  "CMakeFiles/carpet.dir/Programmers/carpet.cpp.obj.d"
+  "carpet.exe"
+  "carpet.exe.manifest"
   "carpet.pdb"
+  "libcarpet.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

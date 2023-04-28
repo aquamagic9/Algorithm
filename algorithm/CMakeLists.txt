@@ -12,6 +12,7 @@ add_executable(english_word_chain Programmers/english_word_chain.cpp)
 add_executable(carpet Programmers/carpet.cpp)
 add_executable(lifeboat Programmers/lifeboat.cpp)
 add_executable(kth_number Programmers/kth_number.cpp)
+add_executable(stock_price Programmers/stock_price.cpp)
 
 
 

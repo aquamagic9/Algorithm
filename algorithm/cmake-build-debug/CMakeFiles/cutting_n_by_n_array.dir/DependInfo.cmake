@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/hyuncho/CLionProjects/git_algorithm/algorithm/Programmers/cutting_n_by_n_array.cpp" "CMakeFiles/cutting_n_by_n_array.dir/Programmers/cutting_n_by_n_array.cpp.o" "gcc" "CMakeFiles/cutting_n_by_n_array.dir/Programmers/cutting_n_by_n_array.cpp.o.d"
+  "C:/Users/happy/Myalgorithm/Algorithm/algorithm/Programmers/cutting_n_by_n_array.cpp" "CMakeFiles/cutting_n_by_n_array.dir/Programmers/cutting_n_by_n_array.cpp.obj" "gcc" "CMakeFiles/cutting_n_by_n_array.dir/Programmers/cutting_n_by_n_array.cpp.obj.d"
   )
 
 # Targets to which this target links.

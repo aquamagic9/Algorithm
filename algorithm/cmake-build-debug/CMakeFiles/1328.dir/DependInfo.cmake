@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/hyuncho/CLionProjects/git_algorithm/algorithm/BOJ/1328.cpp" "CMakeFiles/1328.dir/BOJ/1328.cpp.o" "gcc" "CMakeFiles/1328.dir/BOJ/1328.cpp.o.d"
+  "C:/Users/happy/Myalgorithm/Algorithm/algorithm/BOJ/1328.cpp" "CMakeFiles/1328.dir/BOJ/1328.cpp.obj" "gcc" "CMakeFiles/1328.dir/BOJ/1328.cpp.obj.d"
   )
 
 # Targets to which this target links.

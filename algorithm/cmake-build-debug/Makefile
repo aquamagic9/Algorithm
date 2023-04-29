@@ -479,6 +479,19 @@ stock_price/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2164.dir\build.make CMakeFiles/2164.dir/build
 .PHONY : 2164/fast
 
+#=============================================================================
+# Target rules for targets named 11286
+
+# Build rule for target.
+11286: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 11286
+.PHONY : 11286
+
+# fast build rule for target.
+11286/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11286.dir\build.make CMakeFiles/11286.dir/build
+.PHONY : 11286/fast
+
 BOJ/10986.obj: BOJ/10986.cpp.obj
 .PHONY : BOJ/10986.obj
 
@@ -574,6 +587,30 @@ BOJ/11049.s: BOJ/11049.cpp.s
 BOJ/11049.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11049.dir\build.make CMakeFiles/11049.dir/BOJ/11049.cpp.s
 .PHONY : BOJ/11049.cpp.s
+
+BOJ/11286.obj: BOJ/11286.cpp.obj
+.PHONY : BOJ/11286.obj
+
+# target to build an object file
+BOJ/11286.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11286.dir\build.make CMakeFiles/11286.dir/BOJ/11286.cpp.obj
+.PHONY : BOJ/11286.cpp.obj
+
+BOJ/11286.i: BOJ/11286.cpp.i
+.PHONY : BOJ/11286.i
+
+# target to preprocess a source file
+BOJ/11286.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11286.dir\build.make CMakeFiles/11286.dir/BOJ/11286.cpp.i
+.PHONY : BOJ/11286.cpp.i
+
+BOJ/11286.s: BOJ/11286.cpp.s
+.PHONY : BOJ/11286.s
+
+# target to generate assembly for a file
+BOJ/11286.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11286.dir\build.make CMakeFiles/11286.dir/BOJ/11286.cpp.s
+.PHONY : BOJ/11286.cpp.s
 
 BOJ/11660.obj: BOJ/11660.cpp.obj
 .PHONY : BOJ/11660.obj
@@ -1163,6 +1200,7 @@ help:
 	@echo ... 11003
 	@echo ... 11047
 	@echo ... 11049
+	@echo ... 11286
 	@echo ... 11660
 	@echo ... 1253
 	@echo ... 12891
@@ -1199,6 +1237,9 @@ help:
 	@echo ... BOJ/11049.obj
 	@echo ... BOJ/11049.i
 	@echo ... BOJ/11049.s
+	@echo ... BOJ/11286.obj
+	@echo ... BOJ/11286.i
+	@echo ... BOJ/11286.s
 	@echo ... BOJ/11660.obj
 	@echo ... BOJ/11660.i
 	@echo ... BOJ/11660.s

@@ -505,6 +505,32 @@ stock_price/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2750.dir\build.make CMakeFiles/2750.dir/build
 .PHONY : 2750/fast
 
+#=============================================================================
+# Target rules for targets named 1377
+
+# Build rule for target.
+1377: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1377
+.PHONY : 1377
+
+# fast build rule for target.
+1377/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1377.dir\build.make CMakeFiles/1377.dir/build
+.PHONY : 1377/fast
+
+#=============================================================================
+# Target rules for targets named 1427
+
+# Build rule for target.
+1427: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1427
+.PHONY : 1427
+
+# fast build rule for target.
+1427/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1427.dir\build.make CMakeFiles/1427.dir/build
+.PHONY : 1427/fast
+
 BOJ/10986.obj: BOJ/10986.cpp.obj
 .PHONY : BOJ/10986.obj
 
@@ -720,6 +746,54 @@ BOJ/1328.s: BOJ/1328.cpp.s
 BOJ/1328.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1328.dir\build.make CMakeFiles/1328.dir/BOJ/1328.cpp.s
 .PHONY : BOJ/1328.cpp.s
+
+BOJ/1377.obj: BOJ/1377.cpp.obj
+.PHONY : BOJ/1377.obj
+
+# target to build an object file
+BOJ/1377.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1377.dir\build.make CMakeFiles/1377.dir/BOJ/1377.cpp.obj
+.PHONY : BOJ/1377.cpp.obj
+
+BOJ/1377.i: BOJ/1377.cpp.i
+.PHONY : BOJ/1377.i
+
+# target to preprocess a source file
+BOJ/1377.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1377.dir\build.make CMakeFiles/1377.dir/BOJ/1377.cpp.i
+.PHONY : BOJ/1377.cpp.i
+
+BOJ/1377.s: BOJ/1377.cpp.s
+.PHONY : BOJ/1377.s
+
+# target to generate assembly for a file
+BOJ/1377.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1377.dir\build.make CMakeFiles/1377.dir/BOJ/1377.cpp.s
+.PHONY : BOJ/1377.cpp.s
+
+BOJ/1427.obj: BOJ/1427.cpp.obj
+.PHONY : BOJ/1427.obj
+
+# target to build an object file
+BOJ/1427.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1427.dir\build.make CMakeFiles/1427.dir/BOJ/1427.cpp.obj
+.PHONY : BOJ/1427.cpp.obj
+
+BOJ/1427.i: BOJ/1427.cpp.i
+.PHONY : BOJ/1427.i
+
+# target to preprocess a source file
+BOJ/1427.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1427.dir\build.make CMakeFiles/1427.dir/BOJ/1427.cpp.i
+.PHONY : BOJ/1427.cpp.i
+
+BOJ/1427.s: BOJ/1427.cpp.s
+.PHONY : BOJ/1427.s
+
+# target to generate assembly for a file
+BOJ/1427.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1427.dir\build.make CMakeFiles/1427.dir/BOJ/1427.cpp.s
+.PHONY : BOJ/1427.cpp.s
 
 BOJ/1557.obj: BOJ/1557.cpp.obj
 .PHONY : BOJ/1557.obj
@@ -1242,6 +1316,8 @@ help:
 	@echo ... 1253
 	@echo ... 12891
 	@echo ... 1328
+	@echo ... 1377
+	@echo ... 1427
 	@echo ... 1557
 	@echo ... 17298
 	@echo ... 17299
@@ -1290,6 +1366,12 @@ help:
 	@echo ... BOJ/1328.obj
 	@echo ... BOJ/1328.i
 	@echo ... BOJ/1328.s
+	@echo ... BOJ/1377.obj
+	@echo ... BOJ/1377.i
+	@echo ... BOJ/1377.s
+	@echo ... BOJ/1427.obj
+	@echo ... BOJ/1427.i
+	@echo ... BOJ/1427.s
 	@echo ... BOJ/1557.obj
 	@echo ... BOJ/1557.i
 	@echo ... BOJ/1557.s

@@ -492,6 +492,19 @@ stock_price/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11286.dir\build.make CMakeFiles/11286.dir/build
 .PHONY : 11286/fast
 
+#=============================================================================
+# Target rules for targets named 2750
+
+# Build rule for target.
+2750: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2750
+.PHONY : 2750
+
+# fast build rule for target.
+2750/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2750.dir\build.make CMakeFiles/2750.dir/build
+.PHONY : 2750/fast
+
 BOJ/10986.obj: BOJ/10986.cpp.obj
 .PHONY : BOJ/10986.obj
 
@@ -924,6 +937,30 @@ BOJ/2164.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2164.dir\build.make CMakeFiles/2164.dir/BOJ/2164.cpp.s
 .PHONY : BOJ/2164.cpp.s
 
+BOJ/2750.obj: BOJ/2750.cpp.obj
+.PHONY : BOJ/2750.obj
+
+# target to build an object file
+BOJ/2750.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2750.dir\build.make CMakeFiles/2750.dir/BOJ/2750.cpp.obj
+.PHONY : BOJ/2750.cpp.obj
+
+BOJ/2750.i: BOJ/2750.cpp.i
+.PHONY : BOJ/2750.i
+
+# target to preprocess a source file
+BOJ/2750.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2750.dir\build.make CMakeFiles/2750.dir/BOJ/2750.cpp.i
+.PHONY : BOJ/2750.cpp.i
+
+BOJ/2750.s: BOJ/2750.cpp.s
+.PHONY : BOJ/2750.s
+
+# target to generate assembly for a file
+BOJ/2750.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2750.dir\build.make CMakeFiles/2750.dir/BOJ/2750.cpp.s
+.PHONY : BOJ/2750.cpp.s
+
 BOJ/9935.obj: BOJ/9935.cpp.obj
 .PHONY : BOJ/9935.obj
 
@@ -1214,6 +1251,7 @@ help:
 	@echo ... 1940
 	@echo ... 2018
 	@echo ... 2164
+	@echo ... 2750
 	@echo ... 9935
 	@echo ... carpet
 	@echo ... cutting_n_by_n_array
@@ -1279,6 +1317,9 @@ help:
 	@echo ... BOJ/2164.obj
 	@echo ... BOJ/2164.i
 	@echo ... BOJ/2164.s
+	@echo ... BOJ/2750.obj
+	@echo ... BOJ/2750.i
+	@echo ... BOJ/2750.s
 	@echo ... BOJ/9935.obj
 	@echo ... BOJ/9935.i
 	@echo ... BOJ/9935.s

@@ -233,6 +233,19 @@ kth_number/fast:
 .PHONY : kth_number/fast
 
 #=============================================================================
+# Target rules for targets named stock_price
+
+# Build rule for target.
+stock_price: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stock_price
+.PHONY : stock_price
+
+# fast build rule for target.
+stock_price/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stock_price.dir\build.make CMakeFiles/stock_price.dir/build
+.PHONY : stock_price/fast
+
+#=============================================================================
 # Target rules for targets named 11047
 
 # Build rule for target.
@@ -452,6 +465,19 @@ kth_number/fast:
 17298/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\17298.dir\build.make CMakeFiles/17298.dir/build
 .PHONY : 17298/fast
+
+#=============================================================================
+# Target rules for targets named 2164
+
+# Build rule for target.
+2164: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2164
+.PHONY : 2164
+
+# fast build rule for target.
+2164/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2164.dir\build.make CMakeFiles/2164.dir/build
+.PHONY : 2164/fast
 
 BOJ/10986.obj: BOJ/10986.cpp.obj
 .PHONY : BOJ/10986.obj
@@ -837,6 +863,30 @@ BOJ/2018.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2018.dir\build.make CMakeFiles/2018.dir/BOJ/2018.cpp.s
 .PHONY : BOJ/2018.cpp.s
 
+BOJ/2164.obj: BOJ/2164.cpp.obj
+.PHONY : BOJ/2164.obj
+
+# target to build an object file
+BOJ/2164.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2164.dir\build.make CMakeFiles/2164.dir/BOJ/2164.cpp.obj
+.PHONY : BOJ/2164.cpp.obj
+
+BOJ/2164.i: BOJ/2164.cpp.i
+.PHONY : BOJ/2164.i
+
+# target to preprocess a source file
+BOJ/2164.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2164.dir\build.make CMakeFiles/2164.dir/BOJ/2164.cpp.i
+.PHONY : BOJ/2164.cpp.i
+
+BOJ/2164.s: BOJ/2164.cpp.s
+.PHONY : BOJ/2164.s
+
+# target to generate assembly for a file
+BOJ/2164.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2164.dir\build.make CMakeFiles/2164.dir/BOJ/2164.cpp.s
+.PHONY : BOJ/2164.cpp.s
+
 BOJ/9935.obj: BOJ/9935.cpp.obj
 .PHONY : BOJ/9935.obj
 
@@ -1077,6 +1127,30 @@ Programmers/more_spicy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\more_spicy.dir\build.make CMakeFiles/more_spicy.dir/Programmers/more_spicy.cpp.s
 .PHONY : Programmers/more_spicy.cpp.s
 
+Programmers/stock_price.obj: Programmers/stock_price.cpp.obj
+.PHONY : Programmers/stock_price.obj
+
+# target to build an object file
+Programmers/stock_price.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stock_price.dir\build.make CMakeFiles/stock_price.dir/Programmers/stock_price.cpp.obj
+.PHONY : Programmers/stock_price.cpp.obj
+
+Programmers/stock_price.i: Programmers/stock_price.cpp.i
+.PHONY : Programmers/stock_price.i
+
+# target to preprocess a source file
+Programmers/stock_price.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stock_price.dir\build.make CMakeFiles/stock_price.dir/Programmers/stock_price.cpp.i
+.PHONY : Programmers/stock_price.cpp.i
+
+Programmers/stock_price.s: Programmers/stock_price.cpp.s
+.PHONY : Programmers/stock_price.s
+
+# target to generate assembly for a file
+Programmers/stock_price.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stock_price.dir\build.make CMakeFiles/stock_price.dir/Programmers/stock_price.cpp.s
+.PHONY : Programmers/stock_price.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1101,6 +1175,7 @@ help:
 	@echo ... 1931
 	@echo ... 1940
 	@echo ... 2018
+	@echo ... 2164
 	@echo ... 9935
 	@echo ... carpet
 	@echo ... cutting_n_by_n_array
@@ -1111,6 +1186,7 @@ help:
 	@echo ... lifeboat
 	@echo ... making_big_numbers
 	@echo ... more_spicy
+	@echo ... stock_price
 	@echo ... BOJ/10986.obj
 	@echo ... BOJ/10986.i
 	@echo ... BOJ/10986.s
@@ -1159,6 +1235,9 @@ help:
 	@echo ... BOJ/2018.obj
 	@echo ... BOJ/2018.i
 	@echo ... BOJ/2018.s
+	@echo ... BOJ/2164.obj
+	@echo ... BOJ/2164.i
+	@echo ... BOJ/2164.s
 	@echo ... BOJ/9935.obj
 	@echo ... BOJ/9935.i
 	@echo ... BOJ/9935.s
@@ -1189,6 +1268,9 @@ help:
 	@echo ... Programmers/more_spicy.obj
 	@echo ... Programmers/more_spicy.i
 	@echo ... Programmers/more_spicy.s
+	@echo ... Programmers/stock_price.obj
+	@echo ... Programmers/stock_price.i
+	@echo ... Programmers/stock_price.s
 .PHONY : help
 
 

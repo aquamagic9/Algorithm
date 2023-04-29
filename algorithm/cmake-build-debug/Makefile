@@ -544,6 +544,43 @@ stock_price/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11399.dir\build.make CMakeFiles/11399.dir/build
 .PHONY : 11399/fast
 
+#=============================================================================
+# Target rules for targets named 1052
+
+# Build rule for target.
+1052: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1052
+.PHONY : 1052
+
+# fast build rule for target.
+1052/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1052.dir\build.make CMakeFiles/1052.dir/build
+.PHONY : 1052/fast
+
+BOJ/1052.obj: BOJ/1052.cpp.obj
+.PHONY : BOJ/1052.obj
+
+# target to build an object file
+BOJ/1052.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1052.dir\build.make CMakeFiles/1052.dir/BOJ/1052.cpp.obj
+.PHONY : BOJ/1052.cpp.obj
+
+BOJ/1052.i: BOJ/1052.cpp.i
+.PHONY : BOJ/1052.i
+
+# target to preprocess a source file
+BOJ/1052.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1052.dir\build.make CMakeFiles/1052.dir/BOJ/1052.cpp.i
+.PHONY : BOJ/1052.cpp.i
+
+BOJ/1052.s: BOJ/1052.cpp.s
+.PHONY : BOJ/1052.s
+
+# target to generate assembly for a file
+BOJ/1052.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1052.dir\build.make CMakeFiles/1052.dir/BOJ/1052.cpp.s
+.PHONY : BOJ/1052.cpp.s
+
 BOJ/10986.obj: BOJ/10986.cpp.obj
 .PHONY : BOJ/10986.obj
 
@@ -1344,6 +1381,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 1052
 	@echo ... 10986
 	@echo ... 11003
 	@echo ... 11047
@@ -1377,6 +1415,9 @@ help:
 	@echo ... making_big_numbers
 	@echo ... more_spicy
 	@echo ... stock_price
+	@echo ... BOJ/1052.obj
+	@echo ... BOJ/1052.i
+	@echo ... BOJ/1052.s
 	@echo ... BOJ/10986.obj
 	@echo ... BOJ/10986.i
 	@echo ... BOJ/10986.s

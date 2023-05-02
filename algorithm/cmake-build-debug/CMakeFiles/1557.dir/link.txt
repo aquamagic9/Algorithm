@@ -1,1 +1,3 @@
-/Library/Developer/CommandLineTools/usr/bin/c++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/1557.dir/BOJ/1557.cpp.o -o 1557 
+"C:\Program Files\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\1557.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\1557.dir/objects.a @CMakeFiles\1557.dir\objects1
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\1557.dir/objects.a -Wl,--no-whole-archive -o 1557.exe -Wl,--out-implib,lib1557.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\1557.dir\linkLibs.rsp

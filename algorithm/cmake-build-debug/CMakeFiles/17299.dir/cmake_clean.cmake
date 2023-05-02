@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "17299"
+  "17299.exe"
+  "17299.exe.manifest"
   "17299.pdb"
-  "CMakeFiles/17299.dir/BOJ/17299.cpp.o"
-  "CMakeFiles/17299.dir/BOJ/17299.cpp.o.d"
+  "CMakeFiles/17299.dir/BOJ/17299.cpp.obj"
+  "CMakeFiles/17299.dir/BOJ/17299.cpp.obj.d"
+  "lib17299.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

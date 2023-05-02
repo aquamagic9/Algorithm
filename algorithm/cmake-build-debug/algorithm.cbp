@@ -1529,6 +1529,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="11724">
+				<Option output="/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/11724" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 11724"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11724/fast">
+				<Option output="/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/11724" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 11724/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug"/>
 				<Option type="4"/>
@@ -1579,6 +1621,9 @@
 		</Unit>
 		<Unit filename="/Users/hyuncho/CLionProjects/git_algorithm/algorithm/BOJ/11660.cpp">
 			<Option target="11660"/>
+		</Unit>
+		<Unit filename="/Users/hyuncho/CLionProjects/git_algorithm/algorithm/BOJ/11724.cpp">
+			<Option target="11724"/>
 		</Unit>
 		<Unit filename="/Users/hyuncho/CLionProjects/git_algorithm/algorithm/BOJ/1253.cpp">
 			<Option target="1253"/>

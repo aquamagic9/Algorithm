@@ -584,6 +584,19 @@ stock_price/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/10989.dir/build.make CMakeFiles/10989.dir/build
 .PHONY : 10989/fast
 
+#=============================================================================
+# Target rules for targets named 11724
+
+# Build rule for target.
+11724: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11724
+.PHONY : 11724
+
+# fast build rule for target.
+11724/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11724.dir/build.make CMakeFiles/11724.dir/build
+.PHONY : 11724/fast
+
 BOJ/1052.o: BOJ/1052.cpp.o
 .PHONY : BOJ/1052.o
 
@@ -823,6 +836,30 @@ BOJ/11660.s: BOJ/11660.cpp.s
 BOJ/11660.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/11660.dir/build.make CMakeFiles/11660.dir/BOJ/11660.cpp.s
 .PHONY : BOJ/11660.cpp.s
+
+BOJ/11724.o: BOJ/11724.cpp.o
+.PHONY : BOJ/11724.o
+
+# target to build an object file
+BOJ/11724.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11724.dir/build.make CMakeFiles/11724.dir/BOJ/11724.cpp.o
+.PHONY : BOJ/11724.cpp.o
+
+BOJ/11724.i: BOJ/11724.cpp.i
+.PHONY : BOJ/11724.i
+
+# target to preprocess a source file
+BOJ/11724.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11724.dir/build.make CMakeFiles/11724.dir/BOJ/11724.cpp.i
+.PHONY : BOJ/11724.cpp.i
+
+BOJ/11724.s: BOJ/11724.cpp.s
+.PHONY : BOJ/11724.s
+
+# target to generate assembly for a file
+BOJ/11724.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11724.dir/build.make CMakeFiles/11724.dir/BOJ/11724.cpp.s
+.PHONY : BOJ/11724.cpp.s
 
 BOJ/1253.o: BOJ/1253.cpp.o
 .PHONY : BOJ/1253.o
@@ -1466,6 +1503,7 @@ help:
 	@echo "... 11399"
 	@echo "... 1149"
 	@echo "... 11660"
+	@echo "... 11724"
 	@echo "... 1253"
 	@echo "... 12891"
 	@echo "... 1328"
@@ -1522,6 +1560,9 @@ help:
 	@echo "... BOJ/11660.o"
 	@echo "... BOJ/11660.i"
 	@echo "... BOJ/11660.s"
+	@echo "... BOJ/11724.o"
+	@echo "... BOJ/11724.i"
+	@echo "... BOJ/11724.s"
 	@echo "... BOJ/1253.o"
 	@echo "... BOJ/1253.i"
 	@echo "... BOJ/1253.s"

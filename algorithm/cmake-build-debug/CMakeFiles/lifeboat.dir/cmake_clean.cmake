@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lifeboat.dir/Programmers/lifeboat.cpp.obj"
-  "CMakeFiles/lifeboat.dir/Programmers/lifeboat.cpp.obj.d"
-  "liblifeboat.dll.a"
-  "lifeboat.exe"
-  "lifeboat.exe.manifest"
+  "CMakeFiles/lifeboat.dir/Programmers/lifeboat.cpp.o"
+  "CMakeFiles/lifeboat.dir/Programmers/lifeboat.cpp.o.d"
+  "lifeboat"
   "lifeboat.pdb"
 )
 

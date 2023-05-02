@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/happy/Myalgorithm/Algorithm/algorithm/Programmers/joystick.cpp" "CMakeFiles/joystick.dir/Programmers/joystick.cpp.obj" "gcc" "CMakeFiles/joystick.dir/Programmers/joystick.cpp.obj.d"
+  "/Users/hyuncho/CLionProjects/git_algorithm/algorithm/Programmers/joystick.cpp" "CMakeFiles/joystick.dir/Programmers/joystick.cpp.o" "gcc" "CMakeFiles/joystick.dir/Programmers/joystick.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/happy/Myalgorithm/Algorithm/algorithm/Programmers/making_big_numbers.cpp" "CMakeFiles/making_big_numbers.dir/Programmers/making_big_numbers.cpp.obj" "gcc" "CMakeFiles/making_big_numbers.dir/Programmers/making_big_numbers.cpp.obj.d"
+  "/Users/hyuncho/CLionProjects/git_algorithm/algorithm/Programmers/making_big_numbers.cpp" "CMakeFiles/making_big_numbers.dir/Programmers/making_big_numbers.cpp.o" "gcc" "CMakeFiles/making_big_numbers.dir/Programmers/making_big_numbers.cpp.o.d"
   )
 
 # Targets to which this target links.

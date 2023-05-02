@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "11660.exe"
-  "11660.exe.manifest"
+  "11660"
   "11660.pdb"
-  "CMakeFiles/11660.dir/BOJ/11660.cpp.obj"
-  "CMakeFiles/11660.dir/BOJ/11660.cpp.obj.d"
-  "lib11660.dll.a"
+  "CMakeFiles/11660.dir/BOJ/11660.cpp.o"
+  "CMakeFiles/11660.dir/BOJ/11660.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

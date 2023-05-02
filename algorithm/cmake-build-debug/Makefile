@@ -597,6 +597,19 @@ stock_price/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/11724.dir/build.make CMakeFiles/11724.dir/build
 .PHONY : 11724/fast
 
+#=============================================================================
+# Target rules for targets named 2023
+
+# Build rule for target.
+2023: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2023
+.PHONY : 2023
+
+# fast build rule for target.
+2023/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2023.dir/build.make CMakeFiles/2023.dir/build
+.PHONY : 2023/fast
+
 BOJ/1052.o: BOJ/1052.cpp.o
 .PHONY : BOJ/1052.o
 
@@ -1173,6 +1186,30 @@ BOJ/2018.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2018.dir/build.make CMakeFiles/2018.dir/BOJ/2018.cpp.s
 .PHONY : BOJ/2018.cpp.s
 
+BOJ/2023.o: BOJ/2023.cpp.o
+.PHONY : BOJ/2023.o
+
+# target to build an object file
+BOJ/2023.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2023.dir/build.make CMakeFiles/2023.dir/BOJ/2023.cpp.o
+.PHONY : BOJ/2023.cpp.o
+
+BOJ/2023.i: BOJ/2023.cpp.i
+.PHONY : BOJ/2023.i
+
+# target to preprocess a source file
+BOJ/2023.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2023.dir/build.make CMakeFiles/2023.dir/BOJ/2023.cpp.i
+.PHONY : BOJ/2023.cpp.i
+
+BOJ/2023.s: BOJ/2023.cpp.s
+.PHONY : BOJ/2023.s
+
+# target to generate assembly for a file
+BOJ/2023.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2023.dir/build.make CMakeFiles/2023.dir/BOJ/2023.cpp.s
+.PHONY : BOJ/2023.cpp.s
+
 BOJ/2164.o: BOJ/2164.cpp.o
 .PHONY : BOJ/2164.o
 
@@ -1517,6 +1554,7 @@ help:
 	@echo "... 1931"
 	@echo "... 1940"
 	@echo "... 2018"
+	@echo "... 2023"
 	@echo "... 2164"
 	@echo "... 2750"
 	@echo "... 9935"
@@ -1602,6 +1640,9 @@ help:
 	@echo "... BOJ/2018.o"
 	@echo "... BOJ/2018.i"
 	@echo "... BOJ/2018.s"
+	@echo "... BOJ/2023.o"
+	@echo "... BOJ/2023.i"
+	@echo "... BOJ/2023.s"
 	@echo "... BOJ/2164.o"
 	@echo "... BOJ/2164.i"
 	@echo "... BOJ/2164.s"

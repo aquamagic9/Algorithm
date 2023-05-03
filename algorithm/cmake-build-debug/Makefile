@@ -675,6 +675,19 @@ stock_price/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1300.dir/build.make CMakeFiles/1300.dir/build
 .PHONY : 1300/fast
 
+#=============================================================================
+# Target rules for targets named 1715
+
+# Build rule for target.
+1715: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1715
+.PHONY : 1715
+
+# fast build rule for target.
+1715/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1715.dir/build.make CMakeFiles/1715.dir/build
+.PHONY : 1715/fast
+
 BOJ/1052.o: BOJ/1052.cpp.o
 .PHONY : BOJ/1052.o
 
@@ -1154,6 +1167,30 @@ BOJ/1557.s: BOJ/1557.cpp.s
 BOJ/1557.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1557.dir/build.make CMakeFiles/1557.dir/BOJ/1557.cpp.s
 .PHONY : BOJ/1557.cpp.s
+
+BOJ/1715.o: BOJ/1715.cpp.o
+.PHONY : BOJ/1715.o
+
+# target to build an object file
+BOJ/1715.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1715.dir/build.make CMakeFiles/1715.dir/BOJ/1715.cpp.o
+.PHONY : BOJ/1715.cpp.o
+
+BOJ/1715.i: BOJ/1715.cpp.i
+.PHONY : BOJ/1715.i
+
+# target to preprocess a source file
+BOJ/1715.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1715.dir/build.make CMakeFiles/1715.dir/BOJ/1715.cpp.i
+.PHONY : BOJ/1715.cpp.i
+
+BOJ/1715.s: BOJ/1715.cpp.s
+.PHONY : BOJ/1715.s
+
+# target to generate assembly for a file
+BOJ/1715.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1715.dir/build.make CMakeFiles/1715.dir/BOJ/1715.cpp.s
+.PHONY : BOJ/1715.cpp.s
 
 BOJ/17298.o: BOJ/17298.cpp.o
 .PHONY : BOJ/17298.o
@@ -1735,6 +1772,7 @@ help:
 	@echo "... 1377"
 	@echo "... 1427"
 	@echo "... 1557"
+	@echo "... 1715"
 	@echo "... 17298"
 	@echo "... 17299"
 	@echo "... 18252"
@@ -1818,6 +1856,9 @@ help:
 	@echo "... BOJ/1557.o"
 	@echo "... BOJ/1557.i"
 	@echo "... BOJ/1557.s"
+	@echo "... BOJ/1715.o"
+	@echo "... BOJ/1715.i"
+	@echo "... BOJ/1715.s"
 	@echo "... BOJ/17298.o"
 	@echo "... BOJ/17298.i"
 	@echo "... BOJ/17298.s"

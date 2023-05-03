@@ -90,4 +90,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/2023.dir/DependInfo.cmake"
   "CMakeFiles/13023.dir/DependInfo.cmake"
   "CMakeFiles/1167.dir/DependInfo.cmake"
+  "CMakeFiles/1920.dir/DependInfo.cmake"
   )

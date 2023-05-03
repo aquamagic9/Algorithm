@@ -636,6 +636,19 @@ stock_price/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1167.dir/build.make CMakeFiles/1167.dir/build
 .PHONY : 1167/fast
 
+#=============================================================================
+# Target rules for targets named 1920
+
+# Build rule for target.
+1920: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1920
+.PHONY : 1920
+
+# fast build rule for target.
+1920/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1920.dir/build.make CMakeFiles/1920.dir/build
+.PHONY : 1920/fast
+
 BOJ/1052.o: BOJ/1052.cpp.o
 .PHONY : BOJ/1052.o
 
@@ -1188,6 +1201,30 @@ BOJ/1874.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1874.dir/build.make CMakeFiles/1874.dir/BOJ/1874.cpp.s
 .PHONY : BOJ/1874.cpp.s
 
+BOJ/1920.o: BOJ/1920.cpp.o
+.PHONY : BOJ/1920.o
+
+# target to build an object file
+BOJ/1920.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1920.dir/build.make CMakeFiles/1920.dir/BOJ/1920.cpp.o
+.PHONY : BOJ/1920.cpp.o
+
+BOJ/1920.i: BOJ/1920.cpp.i
+.PHONY : BOJ/1920.i
+
+# target to preprocess a source file
+BOJ/1920.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1920.dir/build.make CMakeFiles/1920.dir/BOJ/1920.cpp.i
+.PHONY : BOJ/1920.cpp.i
+
+BOJ/1920.s: BOJ/1920.cpp.s
+.PHONY : BOJ/1920.s
+
+# target to generate assembly for a file
+BOJ/1920.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1920.dir/build.make CMakeFiles/1920.dir/BOJ/1920.cpp.s
+.PHONY : BOJ/1920.cpp.s
+
 BOJ/1931.o: BOJ/1931.cpp.o
 .PHONY : BOJ/1931.o
 
@@ -1627,6 +1664,7 @@ help:
 	@echo "... 17299"
 	@echo "... 18252"
 	@echo "... 1874"
+	@echo "... 1920"
 	@echo "... 1931"
 	@echo "... 1940"
 	@echo "... 2018"
@@ -1713,6 +1751,9 @@ help:
 	@echo "... BOJ/1874.o"
 	@echo "... BOJ/1874.i"
 	@echo "... BOJ/1874.s"
+	@echo "... BOJ/1920.o"
+	@echo "... BOJ/1920.i"
+	@echo "... BOJ/1920.s"
 	@echo "... BOJ/1931.o"
 	@echo "... BOJ/1931.i"
 	@echo "... BOJ/1931.s"

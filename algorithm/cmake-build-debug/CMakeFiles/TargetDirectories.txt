@@ -38,5 +38,6 @@
 /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/2023.dir
 /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/13023.dir
 /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/1167.dir
+/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/1920.dir
 /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir

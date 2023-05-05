@@ -622,6 +622,19 @@ stock_price/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1260.dir\build.make CMakeFiles/1260.dir/build
 .PHONY : 1260/fast
 
+#=============================================================================
+# Target rules for targets named 2178
+
+# Build rule for target.
+2178: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2178
+.PHONY : 2178
+
+# fast build rule for target.
+2178/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2178.dir\build.make CMakeFiles/2178.dir/build
+.PHONY : 2178/fast
+
 BOJ/1052.obj: BOJ/1052.cpp.obj
 .PHONY : BOJ/1052.obj
 
@@ -1270,6 +1283,30 @@ BOJ/2164.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2164.dir\build.make CMakeFiles/2164.dir/BOJ/2164.cpp.s
 .PHONY : BOJ/2164.cpp.s
 
+BOJ/2178.obj: BOJ/2178.cpp.obj
+.PHONY : BOJ/2178.obj
+
+# target to build an object file
+BOJ/2178.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2178.dir\build.make CMakeFiles/2178.dir/BOJ/2178.cpp.obj
+.PHONY : BOJ/2178.cpp.obj
+
+BOJ/2178.i: BOJ/2178.cpp.i
+.PHONY : BOJ/2178.i
+
+# target to preprocess a source file
+BOJ/2178.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2178.dir\build.make CMakeFiles/2178.dir/BOJ/2178.cpp.i
+.PHONY : BOJ/2178.cpp.i
+
+BOJ/2178.s: BOJ/2178.cpp.s
+.PHONY : BOJ/2178.s
+
+# target to generate assembly for a file
+BOJ/2178.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2178.dir\build.make CMakeFiles/2178.dir/BOJ/2178.cpp.s
+.PHONY : BOJ/2178.cpp.s
+
 BOJ/2750.obj: BOJ/2750.cpp.obj
 .PHONY : BOJ/2750.obj
 
@@ -1593,6 +1630,7 @@ help:
 	@echo ... 2018
 	@echo ... 2023
 	@echo ... 2164
+	@echo ... 2178
 	@echo ... 2750
 	@echo ... 9935
 	@echo ... carpet
@@ -1686,6 +1724,9 @@ help:
 	@echo ... BOJ/2164.obj
 	@echo ... BOJ/2164.i
 	@echo ... BOJ/2164.s
+	@echo ... BOJ/2178.obj
+	@echo ... BOJ/2178.i
+	@echo ... BOJ/2178.s
 	@echo ... BOJ/2750.obj
 	@echo ... BOJ/2750.i
 	@echo ... BOJ/2750.s

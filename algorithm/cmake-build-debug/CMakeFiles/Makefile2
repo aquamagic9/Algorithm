@@ -101,6 +101,7 @@ all: CMakeFiles/10989.dir/all
 all: CMakeFiles/11724.dir/all
 all: CMakeFiles/2023.dir/all
 all: CMakeFiles/1260.dir/all
+all: CMakeFiles/2178.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -147,6 +148,7 @@ clean: CMakeFiles/10989.dir/clean
 clean: CMakeFiles/11724.dir/clean
 clean: CMakeFiles/2023.dir/clean
 clean: CMakeFiles/1260.dir/clean
+clean: CMakeFiles/2178.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -156,7 +158,7 @@ clean: CMakeFiles/1260.dir/clean
 CMakeFiles/gym_suit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gym_suit.dir\build.make CMakeFiles/gym_suit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gym_suit.dir\build.make CMakeFiles/gym_suit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target gym_suit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target gym_suit"
 .PHONY : CMakeFiles/gym_suit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -182,7 +184,7 @@ CMakeFiles/gym_suit.dir/clean:
 CMakeFiles/joystick.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\joystick.dir\build.make CMakeFiles/joystick.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\joystick.dir\build.make CMakeFiles/joystick.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target joystick"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target joystick"
 .PHONY : CMakeFiles/joystick.dir/all
 
 # Build rule for subdir invocation for target.
@@ -208,7 +210,7 @@ CMakeFiles/joystick.dir/clean:
 CMakeFiles/making_big_numbers.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\making_big_numbers.dir\build.make CMakeFiles/making_big_numbers.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\making_big_numbers.dir\build.make CMakeFiles/making_big_numbers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target making_big_numbers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target making_big_numbers"
 .PHONY : CMakeFiles/making_big_numbers.dir/all
 
 # Build rule for subdir invocation for target.
@@ -234,7 +236,7 @@ CMakeFiles/making_big_numbers.dir/clean:
 CMakeFiles/more_spicy.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\more_spicy.dir\build.make CMakeFiles/more_spicy.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\more_spicy.dir\build.make CMakeFiles/more_spicy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target more_spicy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target more_spicy"
 .PHONY : CMakeFiles/more_spicy.dir/all
 
 # Build rule for subdir invocation for target.
@@ -260,7 +262,7 @@ CMakeFiles/more_spicy.dir/clean:
 CMakeFiles/cutting_n_by_n_array.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutting_n_by_n_array.dir\build.make CMakeFiles/cutting_n_by_n_array.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutting_n_by_n_array.dir\build.make CMakeFiles/cutting_n_by_n_array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target cutting_n_by_n_array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target cutting_n_by_n_array"
 .PHONY : CMakeFiles/cutting_n_by_n_array.dir/all
 
 # Build rule for subdir invocation for target.
@@ -286,7 +288,7 @@ CMakeFiles/cutting_n_by_n_array.dir/clean:
 CMakeFiles/english_word_chain.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\english_word_chain.dir\build.make CMakeFiles/english_word_chain.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\english_word_chain.dir\build.make CMakeFiles/english_word_chain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target english_word_chain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target english_word_chain"
 .PHONY : CMakeFiles/english_word_chain.dir/all
 
 # Build rule for subdir invocation for target.
@@ -312,7 +314,7 @@ CMakeFiles/english_word_chain.dir/clean:
 CMakeFiles/carpet.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\carpet.dir\build.make CMakeFiles/carpet.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\carpet.dir\build.make CMakeFiles/carpet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target carpet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target carpet"
 .PHONY : CMakeFiles/carpet.dir/all
 
 # Build rule for subdir invocation for target.
@@ -338,7 +340,7 @@ CMakeFiles/carpet.dir/clean:
 CMakeFiles/lifeboat.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lifeboat.dir\build.make CMakeFiles/lifeboat.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lifeboat.dir\build.make CMakeFiles/lifeboat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target lifeboat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target lifeboat"
 .PHONY : CMakeFiles/lifeboat.dir/all
 
 # Build rule for subdir invocation for target.
@@ -364,7 +366,7 @@ CMakeFiles/lifeboat.dir/clean:
 CMakeFiles/kth_number.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kth_number.dir\build.make CMakeFiles/kth_number.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kth_number.dir\build.make CMakeFiles/kth_number.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target kth_number"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target kth_number"
 .PHONY : CMakeFiles/kth_number.dir/all
 
 # Build rule for subdir invocation for target.
@@ -390,7 +392,7 @@ CMakeFiles/kth_number.dir/clean:
 CMakeFiles/stock_price.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stock_price.dir\build.make CMakeFiles/stock_price.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stock_price.dir\build.make CMakeFiles/stock_price.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target stock_price"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=79,80 "Built target stock_price"
 .PHONY : CMakeFiles/stock_price.dir/all
 
 # Build rule for subdir invocation for target.
@@ -494,7 +496,7 @@ CMakeFiles/18252.dir/clean:
 CMakeFiles/9935.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9935.dir\build.make CMakeFiles/9935.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9935.dir\build.make CMakeFiles/9935.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target 9935"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target 9935"
 .PHONY : CMakeFiles/9935.dir/all
 
 # Build rule for subdir invocation for target.
@@ -910,7 +912,7 @@ CMakeFiles/11286.dir/clean:
 CMakeFiles/2750.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2750.dir\build.make CMakeFiles/2750.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2750.dir\build.make CMakeFiles/2750.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target 2750"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target 2750"
 .PHONY : CMakeFiles/2750.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1162,6 +1164,32 @@ CMakeFiles/1260.dir/rule: cmake_check_build_system
 CMakeFiles/1260.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1260.dir\build.make CMakeFiles/1260.dir/clean
 .PHONY : CMakeFiles/1260.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2178.dir
+
+# All Build rule for target.
+CMakeFiles/2178.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2178.dir\build.make CMakeFiles/2178.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2178.dir\build.make CMakeFiles/2178.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target 2178"
+.PHONY : CMakeFiles/2178.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2178.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2178.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\happy\Myalgorithm\Algorithm\algorithm\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/2178.dir/rule
+
+# Convenience name for target.
+2178: CMakeFiles/2178.dir/rule
+.PHONY : 2178
+
+# clean rule for target.
+CMakeFiles/2178.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2178.dir\build.make CMakeFiles/2178.dir/clean
+.PHONY : CMakeFiles/2178.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

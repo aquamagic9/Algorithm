@@ -610,6 +610,7 @@ stock_price/fast:
 .PHONY : 2023/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named 1260
 
 # Build rule for target.
@@ -637,6 +638,100 @@ stock_price/fast:
 
 BOJ/1052.obj: BOJ/1052.cpp.obj
 .PHONY : BOJ/1052.obj
+=======
+# Target rules for targets named 13023
+
+# Build rule for target.
+13023: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13023
+.PHONY : 13023
+
+# fast build rule for target.
+13023/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13023.dir/build.make CMakeFiles/13023.dir/build
+.PHONY : 13023/fast
+
+#=============================================================================
+# Target rules for targets named 1167
+
+# Build rule for target.
+1167: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1167
+.PHONY : 1167
+
+# fast build rule for target.
+1167/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1167.dir/build.make CMakeFiles/1167.dir/build
+.PHONY : 1167/fast
+
+#=============================================================================
+# Target rules for targets named 1920
+
+# Build rule for target.
+1920: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1920
+.PHONY : 1920
+
+# fast build rule for target.
+1920/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1920.dir/build.make CMakeFiles/1920.dir/build
+.PHONY : 1920/fast
+
+#=============================================================================
+# Target rules for targets named 2343
+
+# Build rule for target.
+2343: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2343
+.PHONY : 2343
+
+# fast build rule for target.
+2343/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2343.dir/build.make CMakeFiles/2343.dir/build
+.PHONY : 2343/fast
+
+#=============================================================================
+# Target rules for targets named 1300
+
+# Build rule for target.
+1300: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1300
+.PHONY : 1300
+
+# fast build rule for target.
+1300/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1300.dir/build.make CMakeFiles/1300.dir/build
+.PHONY : 1300/fast
+
+#=============================================================================
+# Target rules for targets named 1715
+
+# Build rule for target.
+1715: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1715
+.PHONY : 1715
+
+# fast build rule for target.
+1715/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1715.dir/build.make CMakeFiles/1715.dir/build
+.PHONY : 1715/fast
+
+#=============================================================================
+# Target rules for targets named 1744
+
+# Build rule for target.
+1744: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1744
+.PHONY : 1744
+
+# fast build rule for target.
+1744/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1744.dir/build.make CMakeFiles/1744.dir/build
+.PHONY : 1744/fast
+
+BOJ/1052.o: BOJ/1052.cpp.o
+.PHONY : BOJ/1052.o
+>>>>>>> 96f4349afc7fb46d97336fd262b30008746966e2
 
 # target to build an object file
 BOJ/1052.cpp.obj:
@@ -875,8 +970,37 @@ BOJ/11660.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11660.dir\build.make CMakeFiles/11660.dir/BOJ/11660.cpp.s
 .PHONY : BOJ/11660.cpp.s
 
+<<<<<<< HEAD
 BOJ/11724.obj: BOJ/11724.cpp.obj
 .PHONY : BOJ/11724.obj
+=======
+BOJ/1167.o: BOJ/1167.cpp.o
+.PHONY : BOJ/1167.o
+
+# target to build an object file
+BOJ/1167.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1167.dir/build.make CMakeFiles/1167.dir/BOJ/1167.cpp.o
+.PHONY : BOJ/1167.cpp.o
+
+BOJ/1167.i: BOJ/1167.cpp.i
+.PHONY : BOJ/1167.i
+
+# target to preprocess a source file
+BOJ/1167.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1167.dir/build.make CMakeFiles/1167.dir/BOJ/1167.cpp.i
+.PHONY : BOJ/1167.cpp.i
+
+BOJ/1167.s: BOJ/1167.cpp.s
+.PHONY : BOJ/1167.s
+
+# target to generate assembly for a file
+BOJ/1167.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1167.dir/build.make CMakeFiles/1167.dir/BOJ/1167.cpp.s
+.PHONY : BOJ/1167.cpp.s
+
+BOJ/11724.o: BOJ/11724.cpp.o
+.PHONY : BOJ/11724.o
+>>>>>>> 96f4349afc7fb46d97336fd262b30008746966e2
 
 # target to build an object file
 BOJ/11724.cpp.obj:
@@ -971,8 +1095,61 @@ BOJ/12891.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\12891.dir\build.make CMakeFiles/12891.dir/BOJ/12891.cpp.s
 .PHONY : BOJ/12891.cpp.s
 
+<<<<<<< HEAD
 BOJ/1328.obj: BOJ/1328.cpp.obj
 .PHONY : BOJ/1328.obj
+=======
+BOJ/1300.o: BOJ/1300.cpp.o
+.PHONY : BOJ/1300.o
+
+# target to build an object file
+BOJ/1300.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1300.dir/build.make CMakeFiles/1300.dir/BOJ/1300.cpp.o
+.PHONY : BOJ/1300.cpp.o
+
+BOJ/1300.i: BOJ/1300.cpp.i
+.PHONY : BOJ/1300.i
+
+# target to preprocess a source file
+BOJ/1300.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1300.dir/build.make CMakeFiles/1300.dir/BOJ/1300.cpp.i
+.PHONY : BOJ/1300.cpp.i
+
+BOJ/1300.s: BOJ/1300.cpp.s
+.PHONY : BOJ/1300.s
+
+# target to generate assembly for a file
+BOJ/1300.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1300.dir/build.make CMakeFiles/1300.dir/BOJ/1300.cpp.s
+.PHONY : BOJ/1300.cpp.s
+
+BOJ/13023.o: BOJ/13023.cpp.o
+.PHONY : BOJ/13023.o
+
+# target to build an object file
+BOJ/13023.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13023.dir/build.make CMakeFiles/13023.dir/BOJ/13023.cpp.o
+.PHONY : BOJ/13023.cpp.o
+
+BOJ/13023.i: BOJ/13023.cpp.i
+.PHONY : BOJ/13023.i
+
+# target to preprocess a source file
+BOJ/13023.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13023.dir/build.make CMakeFiles/13023.dir/BOJ/13023.cpp.i
+.PHONY : BOJ/13023.cpp.i
+
+BOJ/13023.s: BOJ/13023.cpp.s
+.PHONY : BOJ/13023.s
+
+# target to generate assembly for a file
+BOJ/13023.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13023.dir/build.make CMakeFiles/13023.dir/BOJ/13023.cpp.s
+.PHONY : BOJ/13023.cpp.s
+
+BOJ/1328.o: BOJ/1328.cpp.o
+.PHONY : BOJ/1328.o
+>>>>>>> 96f4349afc7fb46d97336fd262b30008746966e2
 
 # target to build an object file
 BOJ/1328.cpp.obj:
@@ -1067,8 +1244,37 @@ BOJ/1557.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1557.dir\build.make CMakeFiles/1557.dir/BOJ/1557.cpp.s
 .PHONY : BOJ/1557.cpp.s
 
+<<<<<<< HEAD
 BOJ/17298.obj: BOJ/17298.cpp.obj
 .PHONY : BOJ/17298.obj
+=======
+BOJ/1715.o: BOJ/1715.cpp.o
+.PHONY : BOJ/1715.o
+
+# target to build an object file
+BOJ/1715.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1715.dir/build.make CMakeFiles/1715.dir/BOJ/1715.cpp.o
+.PHONY : BOJ/1715.cpp.o
+
+BOJ/1715.i: BOJ/1715.cpp.i
+.PHONY : BOJ/1715.i
+
+# target to preprocess a source file
+BOJ/1715.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1715.dir/build.make CMakeFiles/1715.dir/BOJ/1715.cpp.i
+.PHONY : BOJ/1715.cpp.i
+
+BOJ/1715.s: BOJ/1715.cpp.s
+.PHONY : BOJ/1715.s
+
+# target to generate assembly for a file
+BOJ/1715.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1715.dir/build.make CMakeFiles/1715.dir/BOJ/1715.cpp.s
+.PHONY : BOJ/1715.cpp.s
+
+BOJ/17298.o: BOJ/17298.cpp.o
+.PHONY : BOJ/17298.o
+>>>>>>> 96f4349afc7fb46d97336fd262b30008746966e2
 
 # target to build an object file
 BOJ/17298.cpp.obj:
@@ -1115,8 +1321,37 @@ BOJ/17299.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\17299.dir\build.make CMakeFiles/17299.dir/BOJ/17299.cpp.s
 .PHONY : BOJ/17299.cpp.s
 
+<<<<<<< HEAD
 BOJ/18252.obj: BOJ/18252.cpp.obj
 .PHONY : BOJ/18252.obj
+=======
+BOJ/1744.o: BOJ/1744.cpp.o
+.PHONY : BOJ/1744.o
+
+# target to build an object file
+BOJ/1744.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1744.dir/build.make CMakeFiles/1744.dir/BOJ/1744.cpp.o
+.PHONY : BOJ/1744.cpp.o
+
+BOJ/1744.i: BOJ/1744.cpp.i
+.PHONY : BOJ/1744.i
+
+# target to preprocess a source file
+BOJ/1744.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1744.dir/build.make CMakeFiles/1744.dir/BOJ/1744.cpp.i
+.PHONY : BOJ/1744.cpp.i
+
+BOJ/1744.s: BOJ/1744.cpp.s
+.PHONY : BOJ/1744.s
+
+# target to generate assembly for a file
+BOJ/1744.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1744.dir/build.make CMakeFiles/1744.dir/BOJ/1744.cpp.s
+.PHONY : BOJ/1744.cpp.s
+
+BOJ/18252.o: BOJ/18252.cpp.o
+.PHONY : BOJ/18252.o
+>>>>>>> 96f4349afc7fb46d97336fd262b30008746966e2
 
 # target to build an object file
 BOJ/18252.cpp.obj:
@@ -1163,8 +1398,37 @@ BOJ/1874.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1874.dir\build.make CMakeFiles/1874.dir/BOJ/1874.cpp.s
 .PHONY : BOJ/1874.cpp.s
 
+<<<<<<< HEAD
 BOJ/1931.obj: BOJ/1931.cpp.obj
 .PHONY : BOJ/1931.obj
+=======
+BOJ/1920.o: BOJ/1920.cpp.o
+.PHONY : BOJ/1920.o
+
+# target to build an object file
+BOJ/1920.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1920.dir/build.make CMakeFiles/1920.dir/BOJ/1920.cpp.o
+.PHONY : BOJ/1920.cpp.o
+
+BOJ/1920.i: BOJ/1920.cpp.i
+.PHONY : BOJ/1920.i
+
+# target to preprocess a source file
+BOJ/1920.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1920.dir/build.make CMakeFiles/1920.dir/BOJ/1920.cpp.i
+.PHONY : BOJ/1920.cpp.i
+
+BOJ/1920.s: BOJ/1920.cpp.s
+.PHONY : BOJ/1920.s
+
+# target to generate assembly for a file
+BOJ/1920.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1920.dir/build.make CMakeFiles/1920.dir/BOJ/1920.cpp.s
+.PHONY : BOJ/1920.cpp.s
+
+BOJ/1931.o: BOJ/1931.cpp.o
+.PHONY : BOJ/1931.o
+>>>>>>> 96f4349afc7fb46d97336fd262b30008746966e2
 
 # target to build an object file
 BOJ/1931.cpp.obj:
@@ -1283,8 +1547,37 @@ BOJ/2164.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2164.dir\build.make CMakeFiles/2164.dir/BOJ/2164.cpp.s
 .PHONY : BOJ/2164.cpp.s
 
+<<<<<<< HEAD
 BOJ/2178.obj: BOJ/2178.cpp.obj
 .PHONY : BOJ/2178.obj
+=======
+BOJ/2343.o: BOJ/2343.cpp.o
+.PHONY : BOJ/2343.o
+
+# target to build an object file
+BOJ/2343.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2343.dir/build.make CMakeFiles/2343.dir/BOJ/2343.cpp.o
+.PHONY : BOJ/2343.cpp.o
+
+BOJ/2343.i: BOJ/2343.cpp.i
+.PHONY : BOJ/2343.i
+
+# target to preprocess a source file
+BOJ/2343.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2343.dir/build.make CMakeFiles/2343.dir/BOJ/2343.cpp.i
+.PHONY : BOJ/2343.cpp.i
+
+BOJ/2343.s: BOJ/2343.cpp.s
+.PHONY : BOJ/2343.s
+
+# target to generate assembly for a file
+BOJ/2343.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2343.dir/build.make CMakeFiles/2343.dir/BOJ/2343.cpp.s
+.PHONY : BOJ/2343.cpp.s
+
+BOJ/2750.o: BOJ/2750.cpp.o
+.PHONY : BOJ/2750.o
+>>>>>>> 96f4349afc7fb46d97336fd262b30008746966e2
 
 # target to build an object file
 BOJ/2178.cpp.obj:
@@ -1597,6 +1890,7 @@ Programmers/stock_price.cpp.s:
 
 # Help Target
 help:
+<<<<<<< HEAD
 	@echo The following are some of the valid targets for this Makefile:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
@@ -1763,6 +2057,194 @@ help:
 	@echo ... Programmers/stock_price.obj
 	@echo ... Programmers/stock_price.i
 	@echo ... Programmers/stock_price.s
+=======
+	@echo "The following are some of the valid targets for this Makefile:"
+	@echo "... all (the default if no target is provided)"
+	@echo "... clean"
+	@echo "... depend"
+	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... 1052"
+	@echo "... 10986"
+	@echo "... 10989"
+	@echo "... 11003"
+	@echo "... 11047"
+	@echo "... 11049"
+	@echo "... 11286"
+	@echo "... 11399"
+	@echo "... 1149"
+	@echo "... 11660"
+	@echo "... 1167"
+	@echo "... 11724"
+	@echo "... 1253"
+	@echo "... 12891"
+	@echo "... 1300"
+	@echo "... 13023"
+	@echo "... 1328"
+	@echo "... 1377"
+	@echo "... 1427"
+	@echo "... 1557"
+	@echo "... 1715"
+	@echo "... 17298"
+	@echo "... 17299"
+	@echo "... 1744"
+	@echo "... 18252"
+	@echo "... 1874"
+	@echo "... 1920"
+	@echo "... 1931"
+	@echo "... 1940"
+	@echo "... 2018"
+	@echo "... 2023"
+	@echo "... 2164"
+	@echo "... 2343"
+	@echo "... 2750"
+	@echo "... 9935"
+	@echo "... carpet"
+	@echo "... cutting_n_by_n_array"
+	@echo "... english_word_chain"
+	@echo "... gym_suit"
+	@echo "... joystick"
+	@echo "... kth_number"
+	@echo "... lifeboat"
+	@echo "... making_big_numbers"
+	@echo "... more_spicy"
+	@echo "... stock_price"
+	@echo "... BOJ/1052.o"
+	@echo "... BOJ/1052.i"
+	@echo "... BOJ/1052.s"
+	@echo "... BOJ/10986.o"
+	@echo "... BOJ/10986.i"
+	@echo "... BOJ/10986.s"
+	@echo "... BOJ/10989.o"
+	@echo "... BOJ/10989.i"
+	@echo "... BOJ/10989.s"
+	@echo "... BOJ/11003.o"
+	@echo "... BOJ/11003.i"
+	@echo "... BOJ/11003.s"
+	@echo "... BOJ/11047.o"
+	@echo "... BOJ/11047.i"
+	@echo "... BOJ/11047.s"
+	@echo "... BOJ/11049.o"
+	@echo "... BOJ/11049.i"
+	@echo "... BOJ/11049.s"
+	@echo "... BOJ/11286.o"
+	@echo "... BOJ/11286.i"
+	@echo "... BOJ/11286.s"
+	@echo "... BOJ/11399.o"
+	@echo "... BOJ/11399.i"
+	@echo "... BOJ/11399.s"
+	@echo "... BOJ/1149.o"
+	@echo "... BOJ/1149.i"
+	@echo "... BOJ/1149.s"
+	@echo "... BOJ/11660.o"
+	@echo "... BOJ/11660.i"
+	@echo "... BOJ/11660.s"
+	@echo "... BOJ/1167.o"
+	@echo "... BOJ/1167.i"
+	@echo "... BOJ/1167.s"
+	@echo "... BOJ/11724.o"
+	@echo "... BOJ/11724.i"
+	@echo "... BOJ/11724.s"
+	@echo "... BOJ/1253.o"
+	@echo "... BOJ/1253.i"
+	@echo "... BOJ/1253.s"
+	@echo "... BOJ/12891.o"
+	@echo "... BOJ/12891.i"
+	@echo "... BOJ/12891.s"
+	@echo "... BOJ/1300.o"
+	@echo "... BOJ/1300.i"
+	@echo "... BOJ/1300.s"
+	@echo "... BOJ/13023.o"
+	@echo "... BOJ/13023.i"
+	@echo "... BOJ/13023.s"
+	@echo "... BOJ/1328.o"
+	@echo "... BOJ/1328.i"
+	@echo "... BOJ/1328.s"
+	@echo "... BOJ/1377.o"
+	@echo "... BOJ/1377.i"
+	@echo "... BOJ/1377.s"
+	@echo "... BOJ/1427.o"
+	@echo "... BOJ/1427.i"
+	@echo "... BOJ/1427.s"
+	@echo "... BOJ/1557.o"
+	@echo "... BOJ/1557.i"
+	@echo "... BOJ/1557.s"
+	@echo "... BOJ/1715.o"
+	@echo "... BOJ/1715.i"
+	@echo "... BOJ/1715.s"
+	@echo "... BOJ/17298.o"
+	@echo "... BOJ/17298.i"
+	@echo "... BOJ/17298.s"
+	@echo "... BOJ/17299.o"
+	@echo "... BOJ/17299.i"
+	@echo "... BOJ/17299.s"
+	@echo "... BOJ/1744.o"
+	@echo "... BOJ/1744.i"
+	@echo "... BOJ/1744.s"
+	@echo "... BOJ/18252.o"
+	@echo "... BOJ/18252.i"
+	@echo "... BOJ/18252.s"
+	@echo "... BOJ/1874.o"
+	@echo "... BOJ/1874.i"
+	@echo "... BOJ/1874.s"
+	@echo "... BOJ/1920.o"
+	@echo "... BOJ/1920.i"
+	@echo "... BOJ/1920.s"
+	@echo "... BOJ/1931.o"
+	@echo "... BOJ/1931.i"
+	@echo "... BOJ/1931.s"
+	@echo "... BOJ/1940.o"
+	@echo "... BOJ/1940.i"
+	@echo "... BOJ/1940.s"
+	@echo "... BOJ/2018.o"
+	@echo "... BOJ/2018.i"
+	@echo "... BOJ/2018.s"
+	@echo "... BOJ/2023.o"
+	@echo "... BOJ/2023.i"
+	@echo "... BOJ/2023.s"
+	@echo "... BOJ/2164.o"
+	@echo "... BOJ/2164.i"
+	@echo "... BOJ/2164.s"
+	@echo "... BOJ/2343.o"
+	@echo "... BOJ/2343.i"
+	@echo "... BOJ/2343.s"
+	@echo "... BOJ/2750.o"
+	@echo "... BOJ/2750.i"
+	@echo "... BOJ/2750.s"
+	@echo "... BOJ/9935.o"
+	@echo "... BOJ/9935.i"
+	@echo "... BOJ/9935.s"
+	@echo "... Programmers/carpet.o"
+	@echo "... Programmers/carpet.i"
+	@echo "... Programmers/carpet.s"
+	@echo "... Programmers/cutting_n_by_n_array.o"
+	@echo "... Programmers/cutting_n_by_n_array.i"
+	@echo "... Programmers/cutting_n_by_n_array.s"
+	@echo "... Programmers/english_word_chain.o"
+	@echo "... Programmers/english_word_chain.i"
+	@echo "... Programmers/english_word_chain.s"
+	@echo "... Programmers/gym_suit.o"
+	@echo "... Programmers/gym_suit.i"
+	@echo "... Programmers/gym_suit.s"
+	@echo "... Programmers/joystick.o"
+	@echo "... Programmers/joystick.i"
+	@echo "... Programmers/joystick.s"
+	@echo "... Programmers/kth_number.o"
+	@echo "... Programmers/kth_number.i"
+	@echo "... Programmers/kth_number.s"
+	@echo "... Programmers/lifeboat.o"
+	@echo "... Programmers/lifeboat.i"
+	@echo "... Programmers/lifeboat.s"
+	@echo "... Programmers/making_big_numbers.o"
+	@echo "... Programmers/making_big_numbers.i"
+	@echo "... Programmers/making_big_numbers.s"
+	@echo "... Programmers/more_spicy.o"
+	@echo "... Programmers/more_spicy.i"
+	@echo "... Programmers/more_spicy.s"
+	@echo "... Programmers/stock_price.o"
+	@echo "... Programmers/stock_price.i"
+	@echo "... Programmers/stock_price.s"
+>>>>>>> 96f4349afc7fb46d97336fd262b30008746966e2
 .PHONY : help
 
 

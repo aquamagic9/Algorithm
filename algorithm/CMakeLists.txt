@@ -15,6 +15,7 @@ add_executable(kth_number Programmers/kth_number.cpp)
 add_executable(stock_price Programmers/stock_price.cpp)
 add_executable(long_jump Programmers/long_jump.cpp)
 add_executable(H_index Programmers/H_index.cpp)
+add_executable(target_number Programmers/target_number.cpp)
 
 
 

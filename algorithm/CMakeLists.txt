@@ -17,6 +17,7 @@ add_executable(long_jump Programmers/long_jump.cpp)
 add_executable(H_index Programmers/H_index.cpp)
 add_executable(target_number Programmers/target_number.cpp)
 add_executable(feature_development Programmers/feature_development.cpp)
+add_executable(network Programmers/network.cpp)
 
 
 

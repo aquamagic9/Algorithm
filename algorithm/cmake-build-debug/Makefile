@@ -298,6 +298,19 @@ feature_development/fast:
 .PHONY : feature_development/fast
 
 #=============================================================================
+# Target rules for targets named network
+
+# Build rule for target.
+network: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 network
+.PHONY : network
+
+# fast build rule for target.
+network/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\network.dir\build.make CMakeFiles/network.dir/build
+.PHONY : network/fast
+
+#=============================================================================
 # Target rules for targets named 11047
 
 # Build rule for target.
@@ -1954,6 +1967,30 @@ Programmers/more_spicy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\more_spicy.dir\build.make CMakeFiles/more_spicy.dir/Programmers/more_spicy.cpp.s
 .PHONY : Programmers/more_spicy.cpp.s
 
+Programmers/network.obj: Programmers/network.cpp.obj
+.PHONY : Programmers/network.obj
+
+# target to build an object file
+Programmers/network.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\network.dir\build.make CMakeFiles/network.dir/Programmers/network.cpp.obj
+.PHONY : Programmers/network.cpp.obj
+
+Programmers/network.i: Programmers/network.cpp.i
+.PHONY : Programmers/network.i
+
+# target to preprocess a source file
+Programmers/network.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\network.dir\build.make CMakeFiles/network.dir/Programmers/network.cpp.i
+.PHONY : Programmers/network.cpp.i
+
+Programmers/network.s: Programmers/network.cpp.s
+.PHONY : Programmers/network.s
+
+# target to generate assembly for a file
+Programmers/network.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\network.dir\build.make CMakeFiles/network.dir/Programmers/network.cpp.s
+.PHONY : Programmers/network.cpp.s
+
 Programmers/stock_price.obj: Programmers/stock_price.cpp.obj
 .PHONY : Programmers/stock_price.obj
 
@@ -2059,6 +2096,7 @@ help:
 	@echo ... long_jump
 	@echo ... making_big_numbers
 	@echo ... more_spicy
+	@echo ... network
 	@echo ... stock_price
 	@echo ... target_number
 	@echo ... BOJ/1052.obj
@@ -2208,6 +2246,9 @@ help:
 	@echo ... Programmers/more_spicy.obj
 	@echo ... Programmers/more_spicy.i
 	@echo ... Programmers/more_spicy.s
+	@echo ... Programmers/network.obj
+	@echo ... Programmers/network.i
+	@echo ... Programmers/network.s
 	@echo ... Programmers/stock_price.obj
 	@echo ... Programmers/stock_price.i
 	@echo ... Programmers/stock_price.s

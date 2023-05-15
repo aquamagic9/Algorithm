@@ -10,6 +10,9 @@
 /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/stock_price.dir
 /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/long_jump.dir
 /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/H_index.dir
+/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/target_number.dir
+/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/feature_development.dir
+/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/network.dir
 /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/11047.dir
 /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/1931.dir
 /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/18252.dir

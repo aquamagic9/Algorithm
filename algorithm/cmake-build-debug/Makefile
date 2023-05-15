@@ -273,6 +273,45 @@ H_index/fast:
 .PHONY : H_index/fast
 
 #=============================================================================
+# Target rules for targets named target_number
+
+# Build rule for target.
+target_number: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 target_number
+.PHONY : target_number
+
+# fast build rule for target.
+target_number/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/target_number.dir/build.make CMakeFiles/target_number.dir/build
+.PHONY : target_number/fast
+
+#=============================================================================
+# Target rules for targets named feature_development
+
+# Build rule for target.
+feature_development: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 feature_development
+.PHONY : feature_development
+
+# fast build rule for target.
+feature_development/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/feature_development.dir/build.make CMakeFiles/feature_development.dir/build
+.PHONY : feature_development/fast
+
+#=============================================================================
+# Target rules for targets named network
+
+# Build rule for target.
+network: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network
+.PHONY : network
+
+# fast build rule for target.
+network/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/network.dir/build.make CMakeFiles/network.dir/build
+.PHONY : network/fast
+
+#=============================================================================
 # Target rules for targets named 11047
 
 # Build rule for target.
@@ -1774,6 +1813,30 @@ Programmers/english_word_chain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/english_word_chain.dir/build.make CMakeFiles/english_word_chain.dir/Programmers/english_word_chain.cpp.s
 .PHONY : Programmers/english_word_chain.cpp.s
 
+Programmers/feature_development.o: Programmers/feature_development.cpp.o
+.PHONY : Programmers/feature_development.o
+
+# target to build an object file
+Programmers/feature_development.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/feature_development.dir/build.make CMakeFiles/feature_development.dir/Programmers/feature_development.cpp.o
+.PHONY : Programmers/feature_development.cpp.o
+
+Programmers/feature_development.i: Programmers/feature_development.cpp.i
+.PHONY : Programmers/feature_development.i
+
+# target to preprocess a source file
+Programmers/feature_development.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/feature_development.dir/build.make CMakeFiles/feature_development.dir/Programmers/feature_development.cpp.i
+.PHONY : Programmers/feature_development.cpp.i
+
+Programmers/feature_development.s: Programmers/feature_development.cpp.s
+.PHONY : Programmers/feature_development.s
+
+# target to generate assembly for a file
+Programmers/feature_development.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/feature_development.dir/build.make CMakeFiles/feature_development.dir/Programmers/feature_development.cpp.s
+.PHONY : Programmers/feature_development.cpp.s
+
 Programmers/gym_suit.o: Programmers/gym_suit.cpp.o
 .PHONY : Programmers/gym_suit.o
 
@@ -1942,6 +2005,30 @@ Programmers/more_spicy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_spicy.dir/build.make CMakeFiles/more_spicy.dir/Programmers/more_spicy.cpp.s
 .PHONY : Programmers/more_spicy.cpp.s
 
+Programmers/network.o: Programmers/network.cpp.o
+.PHONY : Programmers/network.o
+
+# target to build an object file
+Programmers/network.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/network.dir/build.make CMakeFiles/network.dir/Programmers/network.cpp.o
+.PHONY : Programmers/network.cpp.o
+
+Programmers/network.i: Programmers/network.cpp.i
+.PHONY : Programmers/network.i
+
+# target to preprocess a source file
+Programmers/network.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/network.dir/build.make CMakeFiles/network.dir/Programmers/network.cpp.i
+.PHONY : Programmers/network.cpp.i
+
+Programmers/network.s: Programmers/network.cpp.s
+.PHONY : Programmers/network.s
+
+# target to generate assembly for a file
+Programmers/network.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/network.dir/build.make CMakeFiles/network.dir/Programmers/network.cpp.s
+.PHONY : Programmers/network.cpp.s
+
 Programmers/stock_price.o: Programmers/stock_price.cpp.o
 .PHONY : Programmers/stock_price.o
 
@@ -1965,6 +2052,30 @@ Programmers/stock_price.s: Programmers/stock_price.cpp.s
 Programmers/stock_price.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stock_price.dir/build.make CMakeFiles/stock_price.dir/Programmers/stock_price.cpp.s
 .PHONY : Programmers/stock_price.cpp.s
+
+Programmers/target_number.o: Programmers/target_number.cpp.o
+.PHONY : Programmers/target_number.o
+
+# target to build an object file
+Programmers/target_number.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/target_number.dir/build.make CMakeFiles/target_number.dir/Programmers/target_number.cpp.o
+.PHONY : Programmers/target_number.cpp.o
+
+Programmers/target_number.i: Programmers/target_number.cpp.i
+.PHONY : Programmers/target_number.i
+
+# target to preprocess a source file
+Programmers/target_number.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/target_number.dir/build.make CMakeFiles/target_number.dir/Programmers/target_number.cpp.i
+.PHONY : Programmers/target_number.cpp.i
+
+Programmers/target_number.s: Programmers/target_number.cpp.s
+.PHONY : Programmers/target_number.s
+
+# target to generate assembly for a file
+Programmers/target_number.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/target_number.dir/build.make CMakeFiles/target_number.dir/Programmers/target_number.cpp.s
+.PHONY : Programmers/target_number.cpp.s
 
 # Help Target
 help:
@@ -2016,6 +2127,7 @@ help:
 	@echo "... carpet"
 	@echo "... cutting_n_by_n_array"
 	@echo "... english_word_chain"
+	@echo "... feature_development"
 	@echo "... gym_suit"
 	@echo "... joystick"
 	@echo "... kth_number"
@@ -2023,7 +2135,9 @@ help:
 	@echo "... long_jump"
 	@echo "... making_big_numbers"
 	@echo "... more_spicy"
+	@echo "... network"
 	@echo "... stock_price"
+	@echo "... target_number"
 	@echo "... BOJ/1052.o"
 	@echo "... BOJ/1052.i"
 	@echo "... BOJ/1052.s"
@@ -2150,6 +2264,9 @@ help:
 	@echo "... Programmers/english_word_chain.o"
 	@echo "... Programmers/english_word_chain.i"
 	@echo "... Programmers/english_word_chain.s"
+	@echo "... Programmers/feature_development.o"
+	@echo "... Programmers/feature_development.i"
+	@echo "... Programmers/feature_development.s"
 	@echo "... Programmers/gym_suit.o"
 	@echo "... Programmers/gym_suit.i"
 	@echo "... Programmers/gym_suit.s"
@@ -2171,9 +2288,15 @@ help:
 	@echo "... Programmers/more_spicy.o"
 	@echo "... Programmers/more_spicy.i"
 	@echo "... Programmers/more_spicy.s"
+	@echo "... Programmers/network.o"
+	@echo "... Programmers/network.i"
+	@echo "... Programmers/network.s"
 	@echo "... Programmers/stock_price.o"
 	@echo "... Programmers/stock_price.i"
 	@echo "... Programmers/stock_price.s"
+	@echo "... Programmers/target_number.o"
+	@echo "... Programmers/target_number.i"
+	@echo "... Programmers/target_number.s"
 .PHONY : help
 
 

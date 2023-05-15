@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/happy/Myalgorithm/Algorithm/algorithm/Programmers/more_spicy.cpp" "CMakeFiles/more_spicy.dir/Programmers/more_spicy.cpp.obj" "gcc" "CMakeFiles/more_spicy.dir/Programmers/more_spicy.cpp.obj.d"
+  "/Users/hyuncho/CLionProjects/git_algorithm/algorithm/Programmers/more_spicy.cpp" "CMakeFiles/more_spicy.dir/Programmers/more_spicy.cpp.o" "gcc" "CMakeFiles/more_spicy.dir/Programmers/more_spicy.cpp.o.d"
   )
 
 # Targets to which this target links.

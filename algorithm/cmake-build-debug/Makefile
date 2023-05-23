@@ -844,6 +844,19 @@ network/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/10799.dir/build.make CMakeFiles/10799.dir/build
 .PHONY : 10799/fast
 
+#=============================================================================
+# Target rules for targets named 1992
+
+# Build rule for target.
+1992: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1992
+.PHONY : 1992
+
+# fast build rule for target.
+1992/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1992.dir/build.make CMakeFiles/1992.dir/build
+.PHONY : 1992/fast
+
 BOJ/1052.o: BOJ/1052.cpp.o
 .PHONY : BOJ/1052.o
 
@@ -1660,6 +1673,30 @@ BOJ/1940.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1940.dir/build.make CMakeFiles/1940.dir/BOJ/1940.cpp.s
 .PHONY : BOJ/1940.cpp.s
 
+BOJ/1992.o: BOJ/1992.cpp.o
+.PHONY : BOJ/1992.o
+
+# target to build an object file
+BOJ/1992.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1992.dir/build.make CMakeFiles/1992.dir/BOJ/1992.cpp.o
+.PHONY : BOJ/1992.cpp.o
+
+BOJ/1992.i: BOJ/1992.cpp.i
+.PHONY : BOJ/1992.i
+
+# target to preprocess a source file
+BOJ/1992.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1992.dir/build.make CMakeFiles/1992.dir/BOJ/1992.cpp.i
+.PHONY : BOJ/1992.cpp.i
+
+BOJ/1992.s: BOJ/1992.cpp.s
+.PHONY : BOJ/1992.s
+
+# target to generate assembly for a file
+BOJ/1992.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1992.dir/build.make CMakeFiles/1992.dir/BOJ/1992.cpp.s
+.PHONY : BOJ/1992.cpp.s
+
 BOJ/2018.o: BOJ/2018.cpp.o
 .PHONY : BOJ/2018.o
 
@@ -2230,6 +2267,7 @@ help:
 	@echo "... 1920"
 	@echo "... 1931"
 	@echo "... 1940"
+	@echo "... 1992"
 	@echo "... 2018"
 	@echo "... 2023"
 	@echo "... 2164"
@@ -2354,6 +2392,9 @@ help:
 	@echo "... BOJ/1940.o"
 	@echo "... BOJ/1940.i"
 	@echo "... BOJ/1940.s"
+	@echo "... BOJ/1992.o"
+	@echo "... BOJ/1992.i"
+	@echo "... BOJ/1992.s"
 	@echo "... BOJ/2018.o"
 	@echo "... BOJ/2018.i"
 	@echo "... BOJ/2018.s"

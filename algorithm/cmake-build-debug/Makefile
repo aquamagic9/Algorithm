@@ -857,6 +857,19 @@ network/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1992.dir/build.make CMakeFiles/1992.dir/build
 .PHONY : 1992/fast
 
+#=============================================================================
+# Target rules for targets named 9012
+
+# Build rule for target.
+9012: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 9012
+.PHONY : 9012
+
+# fast build rule for target.
+9012/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/9012.dir/build.make CMakeFiles/9012.dir/build
+.PHONY : 9012/fast
+
 BOJ/1052.o: BOJ/1052.cpp.o
 .PHONY : BOJ/1052.o
 
@@ -1841,6 +1854,30 @@ BOJ/2750.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2750.dir/build.make CMakeFiles/2750.dir/BOJ/2750.cpp.s
 .PHONY : BOJ/2750.cpp.s
 
+BOJ/9012.o: BOJ/9012.cpp.o
+.PHONY : BOJ/9012.o
+
+# target to build an object file
+BOJ/9012.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/9012.dir/build.make CMakeFiles/9012.dir/BOJ/9012.cpp.o
+.PHONY : BOJ/9012.cpp.o
+
+BOJ/9012.i: BOJ/9012.cpp.i
+.PHONY : BOJ/9012.i
+
+# target to preprocess a source file
+BOJ/9012.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/9012.dir/build.make CMakeFiles/9012.dir/BOJ/9012.cpp.i
+.PHONY : BOJ/9012.cpp.i
+
+BOJ/9012.s: BOJ/9012.cpp.s
+.PHONY : BOJ/9012.s
+
+# target to generate assembly for a file
+BOJ/9012.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/9012.dir/build.make CMakeFiles/9012.dir/BOJ/9012.cpp.s
+.PHONY : BOJ/9012.cpp.s
+
 BOJ/9935.o: BOJ/9935.cpp.o
 .PHONY : BOJ/9935.o
 
@@ -2274,6 +2311,7 @@ help:
 	@echo "... 2178"
 	@echo "... 2343"
 	@echo "... 2750"
+	@echo "... 9012"
 	@echo "... 9935"
 	@echo "... H_index"
 	@echo "... carpet"
@@ -2413,6 +2451,9 @@ help:
 	@echo "... BOJ/2750.o"
 	@echo "... BOJ/2750.i"
 	@echo "... BOJ/2750.s"
+	@echo "... BOJ/9012.o"
+	@echo "... BOJ/9012.i"
+	@echo "... BOJ/9012.s"
 	@echo "... BOJ/9935.o"
 	@echo "... BOJ/9935.i"
 	@echo "... BOJ/9935.s"

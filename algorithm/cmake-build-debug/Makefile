@@ -884,6 +884,19 @@ network/fast:
 .PHONY : 2447/fast
 
 #=============================================================================
+# Target rules for targets named 10101
+
+# Build rule for target.
+10101: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10101
+.PHONY : 10101
+
+# fast build rule for target.
+10101/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10101.dir/build.make CMakeFiles/10101.dir/build
+.PHONY : 10101/fast
+
+#=============================================================================
 # Target rules for targets named 1992_2
 
 # Build rule for target.
@@ -908,6 +921,30 @@ network/fast:
 9012_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/9012_2.dir/build.make CMakeFiles/9012_2.dir/build
 .PHONY : 9012_2/fast
+
+BOJ/10101.o: BOJ/10101.cpp.o
+.PHONY : BOJ/10101.o
+
+# target to build an object file
+BOJ/10101.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10101.dir/build.make CMakeFiles/10101.dir/BOJ/10101.cpp.o
+.PHONY : BOJ/10101.cpp.o
+
+BOJ/10101.i: BOJ/10101.cpp.i
+.PHONY : BOJ/10101.i
+
+# target to preprocess a source file
+BOJ/10101.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10101.dir/build.make CMakeFiles/10101.dir/BOJ/10101.cpp.i
+.PHONY : BOJ/10101.cpp.i
+
+BOJ/10101.s: BOJ/10101.cpp.s
+.PHONY : BOJ/10101.s
+
+# target to generate assembly for a file
+BOJ/10101.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10101.dir/build.make CMakeFiles/10101.dir/BOJ/10101.cpp.s
+.PHONY : BOJ/10101.cpp.s
 
 BOJ/1052.o: BOJ/1052.cpp.o
 .PHONY : BOJ/1052.o
@@ -2381,6 +2418,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... 10101"
 	@echo "... 1052"
 	@echo "... 10799"
 	@echo "... 10816"
@@ -2442,6 +2480,9 @@ help:
 	@echo "... network"
 	@echo "... stock_price"
 	@echo "... target_number"
+	@echo "... BOJ/10101.o"
+	@echo "... BOJ/10101.i"
+	@echo "... BOJ/10101.s"
 	@echo "... BOJ/1052.o"
 	@echo "... BOJ/1052.i"
 	@echo "... BOJ/1052.s"

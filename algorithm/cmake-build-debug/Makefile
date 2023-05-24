@@ -870,6 +870,45 @@ network/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/9012.dir/build.make CMakeFiles/9012.dir/build
 .PHONY : 9012/fast
 
+#=============================================================================
+# Target rules for targets named 2447
+
+# Build rule for target.
+2447: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2447
+.PHONY : 2447
+
+# fast build rule for target.
+2447/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2447.dir/build.make CMakeFiles/2447.dir/build
+.PHONY : 2447/fast
+
+#=============================================================================
+# Target rules for targets named 1992_2
+
+# Build rule for target.
+1992_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1992_2
+.PHONY : 1992_2
+
+# fast build rule for target.
+1992_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1992_2.dir/build.make CMakeFiles/1992_2.dir/build
+.PHONY : 1992_2/fast
+
+#=============================================================================
+# Target rules for targets named 9012_2
+
+# Build rule for target.
+9012_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 9012_2
+.PHONY : 9012_2
+
+# fast build rule for target.
+9012_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/9012_2.dir/build.make CMakeFiles/9012_2.dir/build
+.PHONY : 9012_2/fast
+
 BOJ/1052.o: BOJ/1052.cpp.o
 .PHONY : BOJ/1052.o
 
@@ -1830,6 +1869,30 @@ BOJ/2343.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2343.dir/build.make CMakeFiles/2343.dir/BOJ/2343.cpp.s
 .PHONY : BOJ/2343.cpp.s
 
+BOJ/2447.o: BOJ/2447.cpp.o
+.PHONY : BOJ/2447.o
+
+# target to build an object file
+BOJ/2447.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2447.dir/build.make CMakeFiles/2447.dir/BOJ/2447.cpp.o
+.PHONY : BOJ/2447.cpp.o
+
+BOJ/2447.i: BOJ/2447.cpp.i
+.PHONY : BOJ/2447.i
+
+# target to preprocess a source file
+BOJ/2447.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2447.dir/build.make CMakeFiles/2447.dir/BOJ/2447.cpp.i
+.PHONY : BOJ/2447.cpp.i
+
+BOJ/2447.s: BOJ/2447.cpp.s
+.PHONY : BOJ/2447.s
+
+# target to generate assembly for a file
+BOJ/2447.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2447.dir/build.make CMakeFiles/2447.dir/BOJ/2447.cpp.s
+.PHONY : BOJ/2447.cpp.s
+
 BOJ/2750.o: BOJ/2750.cpp.o
 .PHONY : BOJ/2750.o
 
@@ -2262,6 +2325,54 @@ Programmers/target_number.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/target_number.dir/build.make CMakeFiles/target_number.dir/Programmers/target_number.cpp.s
 .PHONY : Programmers/target_number.cpp.s
 
+resolve/1992_2.o: resolve/1992_2.cpp.o
+.PHONY : resolve/1992_2.o
+
+# target to build an object file
+resolve/1992_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1992_2.dir/build.make CMakeFiles/1992_2.dir/resolve/1992_2.cpp.o
+.PHONY : resolve/1992_2.cpp.o
+
+resolve/1992_2.i: resolve/1992_2.cpp.i
+.PHONY : resolve/1992_2.i
+
+# target to preprocess a source file
+resolve/1992_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1992_2.dir/build.make CMakeFiles/1992_2.dir/resolve/1992_2.cpp.i
+.PHONY : resolve/1992_2.cpp.i
+
+resolve/1992_2.s: resolve/1992_2.cpp.s
+.PHONY : resolve/1992_2.s
+
+# target to generate assembly for a file
+resolve/1992_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1992_2.dir/build.make CMakeFiles/1992_2.dir/resolve/1992_2.cpp.s
+.PHONY : resolve/1992_2.cpp.s
+
+resolve/9012_2.o: resolve/9012_2.cpp.o
+.PHONY : resolve/9012_2.o
+
+# target to build an object file
+resolve/9012_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/9012_2.dir/build.make CMakeFiles/9012_2.dir/resolve/9012_2.cpp.o
+.PHONY : resolve/9012_2.cpp.o
+
+resolve/9012_2.i: resolve/9012_2.cpp.i
+.PHONY : resolve/9012_2.i
+
+# target to preprocess a source file
+resolve/9012_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/9012_2.dir/build.make CMakeFiles/9012_2.dir/resolve/9012_2.cpp.i
+.PHONY : resolve/9012_2.cpp.i
+
+resolve/9012_2.s: resolve/9012_2.cpp.s
+.PHONY : resolve/9012_2.s
+
+# target to generate assembly for a file
+resolve/9012_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/9012_2.dir/build.make CMakeFiles/9012_2.dir/resolve/9012_2.cpp.s
+.PHONY : resolve/9012_2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2305,13 +2416,16 @@ help:
 	@echo "... 1931"
 	@echo "... 1940"
 	@echo "... 1992"
+	@echo "... 1992_2"
 	@echo "... 2018"
 	@echo "... 2023"
 	@echo "... 2164"
 	@echo "... 2178"
 	@echo "... 2343"
+	@echo "... 2447"
 	@echo "... 2750"
 	@echo "... 9012"
+	@echo "... 9012_2"
 	@echo "... 9935"
 	@echo "... H_index"
 	@echo "... carpet"
@@ -2448,6 +2562,9 @@ help:
 	@echo "... BOJ/2343.o"
 	@echo "... BOJ/2343.i"
 	@echo "... BOJ/2343.s"
+	@echo "... BOJ/2447.o"
+	@echo "... BOJ/2447.i"
+	@echo "... BOJ/2447.s"
 	@echo "... BOJ/2750.o"
 	@echo "... BOJ/2750.i"
 	@echo "... BOJ/2750.s"
@@ -2502,6 +2619,12 @@ help:
 	@echo "... Programmers/target_number.o"
 	@echo "... Programmers/target_number.i"
 	@echo "... Programmers/target_number.s"
+	@echo "... resolve/1992_2.o"
+	@echo "... resolve/1992_2.i"
+	@echo "... resolve/1992_2.s"
+	@echo "... resolve/9012_2.o"
+	@echo "... resolve/9012_2.i"
+	@echo "... resolve/9012_2.s"
 .PHONY : help
 
 

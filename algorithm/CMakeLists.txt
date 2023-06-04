@@ -62,3 +62,16 @@ add_executable(1300 BOJ/1300.cpp)
 add_executable(1715 BOJ/1715.cpp)
 add_executable(1744 BOJ/1744.cpp)
 add_executable(10974 BOJ/10974.cpp)
+add_executable(1541 BOJ/1541.cpp)
+add_executable(10816 BOJ/10816.cpp)
+add_executable(1439 BOJ/1439.cpp)
+add_executable(10799 BOJ/10799.cpp)
+add_executable(1992 BOJ/1992.cpp)
+add_executable(9012 BOJ/9012.cpp)
+add_executable(2447 BOJ/2447.cpp)
+
+
+
+
+add_executable(1992_2 resolve/1992_2.cpp)
+add_executable(9012_2 resolve/9012_2.cpp)

@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\cutting_n_by_n_array.dir/objects.a
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\cutting_n_by_n_array.dir/objects.a @CMakeFiles\cutting_n_by_n_array.dir\objects1
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\cutting_n_by_n_array.dir/objects.a -Wl,--no-whole-archive -o cutting_n_by_n_array.exe -Wl,--out-implib,libcutting_n_by_n_array.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cutting_n_by_n_array.dir\linkLibs.rsp

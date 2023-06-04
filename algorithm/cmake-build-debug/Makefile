@@ -791,6 +791,19 @@ network/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1744.dir\build.make CMakeFiles/1744.dir/build
 .PHONY : 1744/fast
 
+#=============================================================================
+# Target rules for targets named 10974
+
+# Build rule for target.
+10974: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10974
+.PHONY : 10974
+
+# fast build rule for target.
+10974/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10974.dir\build.make CMakeFiles/10974.dir/build
+.PHONY : 10974/fast
+
 BOJ/1052.obj: BOJ/1052.cpp.obj
 .PHONY : BOJ/1052.obj
 
@@ -814,6 +827,30 @@ BOJ/1052.s: BOJ/1052.cpp.s
 BOJ/1052.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1052.dir\build.make CMakeFiles/1052.dir/BOJ/1052.cpp.s
 .PHONY : BOJ/1052.cpp.s
+
+BOJ/10974.obj: BOJ/10974.cpp.obj
+.PHONY : BOJ/10974.obj
+
+# target to build an object file
+BOJ/10974.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10974.dir\build.make CMakeFiles/10974.dir/BOJ/10974.cpp.obj
+.PHONY : BOJ/10974.cpp.obj
+
+BOJ/10974.i: BOJ/10974.cpp.i
+.PHONY : BOJ/10974.i
+
+# target to preprocess a source file
+BOJ/10974.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10974.dir\build.make CMakeFiles/10974.dir/BOJ/10974.cpp.i
+.PHONY : BOJ/10974.cpp.i
+
+BOJ/10974.s: BOJ/10974.cpp.s
+.PHONY : BOJ/10974.s
+
+# target to generate assembly for a file
+BOJ/10974.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10974.dir\build.make CMakeFiles/10974.dir/BOJ/10974.cpp.s
+.PHONY : BOJ/10974.cpp.s
 
 BOJ/10986.obj: BOJ/10986.cpp.obj
 .PHONY : BOJ/10986.obj
@@ -2048,6 +2085,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 1052
+	@echo ... 10974
 	@echo ... 10986
 	@echo ... 10989
 	@echo ... 11003
@@ -2102,6 +2140,9 @@ help:
 	@echo ... BOJ/1052.obj
 	@echo ... BOJ/1052.i
 	@echo ... BOJ/1052.s
+	@echo ... BOJ/10974.obj
+	@echo ... BOJ/10974.i
+	@echo ... BOJ/10974.s
 	@echo ... BOJ/10986.obj
 	@echo ... BOJ/10986.i
 	@echo ... BOJ/10986.s

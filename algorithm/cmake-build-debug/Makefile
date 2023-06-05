@@ -923,6 +923,19 @@ network/fast:
 .PHONY : 14503/fast
 
 #=============================================================================
+# Target rules for targets named 3040
+
+# Build rule for target.
+3040: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3040
+.PHONY : 3040
+
+# fast build rule for target.
+3040/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3040.dir/build.make CMakeFiles/3040.dir/build
+.PHONY : 3040/fast
+
+#=============================================================================
 # Target rules for targets named 1992_2
 
 # Build rule for target.
@@ -2028,6 +2041,30 @@ BOJ/2750.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2750.dir/build.make CMakeFiles/2750.dir/BOJ/2750.cpp.s
 .PHONY : BOJ/2750.cpp.s
 
+BOJ/3040.o: BOJ/3040.cpp.o
+.PHONY : BOJ/3040.o
+
+# target to build an object file
+BOJ/3040.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3040.dir/build.make CMakeFiles/3040.dir/BOJ/3040.cpp.o
+.PHONY : BOJ/3040.cpp.o
+
+BOJ/3040.i: BOJ/3040.cpp.i
+.PHONY : BOJ/3040.i
+
+# target to preprocess a source file
+BOJ/3040.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3040.dir/build.make CMakeFiles/3040.dir/BOJ/3040.cpp.i
+.PHONY : BOJ/3040.cpp.i
+
+BOJ/3040.s: BOJ/3040.cpp.s
+.PHONY : BOJ/3040.s
+
+# target to generate assembly for a file
+BOJ/3040.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3040.dir/build.make CMakeFiles/3040.dir/BOJ/3040.cpp.s
+.PHONY : BOJ/3040.cpp.s
+
 BOJ/9012.o: BOJ/9012.cpp.o
 .PHONY : BOJ/9012.o
 
@@ -2538,6 +2575,7 @@ help:
 	@echo "... 2343"
 	@echo "... 2447"
 	@echo "... 2750"
+	@echo "... 3040"
 	@echo "... 9012"
 	@echo "... 9012_2"
 	@echo "... 9935"
@@ -2691,6 +2729,9 @@ help:
 	@echo "... BOJ/2750.o"
 	@echo "... BOJ/2750.i"
 	@echo "... BOJ/2750.s"
+	@echo "... BOJ/3040.o"
+	@echo "... BOJ/3040.i"
+	@echo "... BOJ/3040.s"
 	@echo "... BOJ/9012.o"
 	@echo "... BOJ/9012.i"
 	@echo "... BOJ/9012.s"

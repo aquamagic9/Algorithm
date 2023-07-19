@@ -936,6 +936,19 @@ network/fast:
 .PHONY : 3040/fast
 
 #=============================================================================
+# Target rules for targets named 11403
+
+# Build rule for target.
+11403: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11403
+.PHONY : 11403
+
+# fast build rule for target.
+11403/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11403.dir/build.make CMakeFiles/11403.dir/build
+.PHONY : 11403/fast
+
+#=============================================================================
 # Target rules for targets named 1992_2
 
 # Build rule for target.
@@ -960,6 +973,71 @@ network/fast:
 9012_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/9012_2.dir/build.make CMakeFiles/9012_2.dir/build
 .PHONY : 9012_2/fast
+
+#=============================================================================
+# Target rules for targets named 0710_entrance_exam
+
+# Build rule for target.
+0710_entrance_exam: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 0710_entrance_exam
+.PHONY : 0710_entrance_exam
+
+# fast build rule for target.
+0710_entrance_exam/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0710_entrance_exam.dir/build.make CMakeFiles/0710_entrance_exam.dir/build
+.PHONY : 0710_entrance_exam/fast
+
+#=============================================================================
+# Target rules for targets named 0710_entrance_exam2
+
+# Build rule for target.
+0710_entrance_exam2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 0710_entrance_exam2
+.PHONY : 0710_entrance_exam2
+
+# fast build rule for target.
+0710_entrance_exam2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0710_entrance_exam2.dir/build.make CMakeFiles/0710_entrance_exam2.dir/build
+.PHONY : 0710_entrance_exam2/fast
+
+#=============================================================================
+# Target rules for targets named 0718_Q1
+
+# Build rule for target.
+0718_Q1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 0718_Q1
+.PHONY : 0718_Q1
+
+# fast build rule for target.
+0718_Q1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0718_Q1.dir/build.make CMakeFiles/0718_Q1.dir/build
+.PHONY : 0718_Q1/fast
+
+#=============================================================================
+# Target rules for targets named 0718_Q2
+
+# Build rule for target.
+0718_Q2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 0718_Q2
+.PHONY : 0718_Q2
+
+# fast build rule for target.
+0718_Q2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0718_Q2.dir/build.make CMakeFiles/0718_Q2.dir/build
+.PHONY : 0718_Q2/fast
+
+#=============================================================================
+# Target rules for targets named 0718_Q3
+
+# Build rule for target.
+0718_Q3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 0718_Q3
+.PHONY : 0718_Q3
+
+# fast build rule for target.
+0718_Q3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0718_Q3.dir/build.make CMakeFiles/0718_Q3.dir/build
+.PHONY : 0718_Q3/fast
 
 BOJ/10101.o: BOJ/10101.cpp.o
 .PHONY : BOJ/10101.o
@@ -1248,6 +1326,30 @@ BOJ/11399.s: BOJ/11399.cpp.s
 BOJ/11399.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/11399.dir/build.make CMakeFiles/11399.dir/BOJ/11399.cpp.s
 .PHONY : BOJ/11399.cpp.s
+
+BOJ/11403.o: BOJ/11403.cpp.o
+.PHONY : BOJ/11403.o
+
+# target to build an object file
+BOJ/11403.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11403.dir/build.make CMakeFiles/11403.dir/BOJ/11403.cpp.o
+.PHONY : BOJ/11403.cpp.o
+
+BOJ/11403.i: BOJ/11403.cpp.i
+.PHONY : BOJ/11403.i
+
+# target to preprocess a source file
+BOJ/11403.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11403.dir/build.make CMakeFiles/11403.dir/BOJ/11403.cpp.i
+.PHONY : BOJ/11403.cpp.i
+
+BOJ/11403.s: BOJ/11403.cpp.s
+.PHONY : BOJ/11403.s
+
+# target to generate assembly for a file
+BOJ/11403.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11403.dir/build.make CMakeFiles/11403.dir/BOJ/11403.cpp.s
+.PHONY : BOJ/11403.cpp.s
 
 BOJ/1149.o: BOJ/1149.cpp.o
 .PHONY : BOJ/1149.o
@@ -2521,6 +2623,126 @@ resolve/9012_2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/9012_2.dir/build.make CMakeFiles/9012_2.dir/resolve/9012_2.cpp.s
 .PHONY : resolve/9012_2.cpp.s
 
+samsung/0710_entrance_exam.o: samsung/0710_entrance_exam.cpp.o
+.PHONY : samsung/0710_entrance_exam.o
+
+# target to build an object file
+samsung/0710_entrance_exam.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0710_entrance_exam.dir/build.make CMakeFiles/0710_entrance_exam.dir/samsung/0710_entrance_exam.cpp.o
+.PHONY : samsung/0710_entrance_exam.cpp.o
+
+samsung/0710_entrance_exam.i: samsung/0710_entrance_exam.cpp.i
+.PHONY : samsung/0710_entrance_exam.i
+
+# target to preprocess a source file
+samsung/0710_entrance_exam.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0710_entrance_exam.dir/build.make CMakeFiles/0710_entrance_exam.dir/samsung/0710_entrance_exam.cpp.i
+.PHONY : samsung/0710_entrance_exam.cpp.i
+
+samsung/0710_entrance_exam.s: samsung/0710_entrance_exam.cpp.s
+.PHONY : samsung/0710_entrance_exam.s
+
+# target to generate assembly for a file
+samsung/0710_entrance_exam.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0710_entrance_exam.dir/build.make CMakeFiles/0710_entrance_exam.dir/samsung/0710_entrance_exam.cpp.s
+.PHONY : samsung/0710_entrance_exam.cpp.s
+
+samsung/0710_entrance_exam2.o: samsung/0710_entrance_exam2.cpp.o
+.PHONY : samsung/0710_entrance_exam2.o
+
+# target to build an object file
+samsung/0710_entrance_exam2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0710_entrance_exam2.dir/build.make CMakeFiles/0710_entrance_exam2.dir/samsung/0710_entrance_exam2.cpp.o
+.PHONY : samsung/0710_entrance_exam2.cpp.o
+
+samsung/0710_entrance_exam2.i: samsung/0710_entrance_exam2.cpp.i
+.PHONY : samsung/0710_entrance_exam2.i
+
+# target to preprocess a source file
+samsung/0710_entrance_exam2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0710_entrance_exam2.dir/build.make CMakeFiles/0710_entrance_exam2.dir/samsung/0710_entrance_exam2.cpp.i
+.PHONY : samsung/0710_entrance_exam2.cpp.i
+
+samsung/0710_entrance_exam2.s: samsung/0710_entrance_exam2.cpp.s
+.PHONY : samsung/0710_entrance_exam2.s
+
+# target to generate assembly for a file
+samsung/0710_entrance_exam2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0710_entrance_exam2.dir/build.make CMakeFiles/0710_entrance_exam2.dir/samsung/0710_entrance_exam2.cpp.s
+.PHONY : samsung/0710_entrance_exam2.cpp.s
+
+samsung/0718_Q1.o: samsung/0718_Q1.cpp.o
+.PHONY : samsung/0718_Q1.o
+
+# target to build an object file
+samsung/0718_Q1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0718_Q1.dir/build.make CMakeFiles/0718_Q1.dir/samsung/0718_Q1.cpp.o
+.PHONY : samsung/0718_Q1.cpp.o
+
+samsung/0718_Q1.i: samsung/0718_Q1.cpp.i
+.PHONY : samsung/0718_Q1.i
+
+# target to preprocess a source file
+samsung/0718_Q1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0718_Q1.dir/build.make CMakeFiles/0718_Q1.dir/samsung/0718_Q1.cpp.i
+.PHONY : samsung/0718_Q1.cpp.i
+
+samsung/0718_Q1.s: samsung/0718_Q1.cpp.s
+.PHONY : samsung/0718_Q1.s
+
+# target to generate assembly for a file
+samsung/0718_Q1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0718_Q1.dir/build.make CMakeFiles/0718_Q1.dir/samsung/0718_Q1.cpp.s
+.PHONY : samsung/0718_Q1.cpp.s
+
+samsung/0718_Q2.o: samsung/0718_Q2.cpp.o
+.PHONY : samsung/0718_Q2.o
+
+# target to build an object file
+samsung/0718_Q2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0718_Q2.dir/build.make CMakeFiles/0718_Q2.dir/samsung/0718_Q2.cpp.o
+.PHONY : samsung/0718_Q2.cpp.o
+
+samsung/0718_Q2.i: samsung/0718_Q2.cpp.i
+.PHONY : samsung/0718_Q2.i
+
+# target to preprocess a source file
+samsung/0718_Q2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0718_Q2.dir/build.make CMakeFiles/0718_Q2.dir/samsung/0718_Q2.cpp.i
+.PHONY : samsung/0718_Q2.cpp.i
+
+samsung/0718_Q2.s: samsung/0718_Q2.cpp.s
+.PHONY : samsung/0718_Q2.s
+
+# target to generate assembly for a file
+samsung/0718_Q2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0718_Q2.dir/build.make CMakeFiles/0718_Q2.dir/samsung/0718_Q2.cpp.s
+.PHONY : samsung/0718_Q2.cpp.s
+
+samsung/0718_Q3.o: samsung/0718_Q3.cpp.o
+.PHONY : samsung/0718_Q3.o
+
+# target to build an object file
+samsung/0718_Q3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0718_Q3.dir/build.make CMakeFiles/0718_Q3.dir/samsung/0718_Q3.cpp.o
+.PHONY : samsung/0718_Q3.cpp.o
+
+samsung/0718_Q3.i: samsung/0718_Q3.cpp.i
+.PHONY : samsung/0718_Q3.i
+
+# target to preprocess a source file
+samsung/0718_Q3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0718_Q3.dir/build.make CMakeFiles/0718_Q3.dir/samsung/0718_Q3.cpp.i
+.PHONY : samsung/0718_Q3.cpp.i
+
+samsung/0718_Q3.s: samsung/0718_Q3.cpp.s
+.PHONY : samsung/0718_Q3.s
+
+# target to generate assembly for a file
+samsung/0718_Q3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0718_Q3.dir/build.make CMakeFiles/0718_Q3.dir/samsung/0718_Q3.cpp.s
+.PHONY : samsung/0718_Q3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2529,6 +2751,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... 0710_entrance_exam"
+	@echo "... 0710_entrance_exam2"
+	@echo "... 0718_Q1"
+	@echo "... 0718_Q2"
+	@echo "... 0718_Q3"
 	@echo "... 10101"
 	@echo "... 1052"
 	@echo "... 10799"
@@ -2541,6 +2768,7 @@ help:
 	@echo "... 11049"
 	@echo "... 11286"
 	@echo "... 11399"
+	@echo "... 11403"
 	@echo "... 1149"
 	@echo "... 11660"
 	@echo "... 1167"
@@ -2630,6 +2858,9 @@ help:
 	@echo "... BOJ/11399.o"
 	@echo "... BOJ/11399.i"
 	@echo "... BOJ/11399.s"
+	@echo "... BOJ/11403.o"
+	@echo "... BOJ/11403.i"
+	@echo "... BOJ/11403.s"
 	@echo "... BOJ/1149.o"
 	@echo "... BOJ/1149.i"
 	@echo "... BOJ/1149.s"
@@ -2789,6 +3020,21 @@ help:
 	@echo "... resolve/9012_2.o"
 	@echo "... resolve/9012_2.i"
 	@echo "... resolve/9012_2.s"
+	@echo "... samsung/0710_entrance_exam.o"
+	@echo "... samsung/0710_entrance_exam.i"
+	@echo "... samsung/0710_entrance_exam.s"
+	@echo "... samsung/0710_entrance_exam2.o"
+	@echo "... samsung/0710_entrance_exam2.i"
+	@echo "... samsung/0710_entrance_exam2.s"
+	@echo "... samsung/0718_Q1.o"
+	@echo "... samsung/0718_Q1.i"
+	@echo "... samsung/0718_Q1.s"
+	@echo "... samsung/0718_Q2.o"
+	@echo "... samsung/0718_Q2.i"
+	@echo "... samsung/0718_Q2.s"
+	@echo "... samsung/0718_Q3.o"
+	@echo "... samsung/0718_Q3.i"
+	@echo "... samsung/0718_Q3.s"
 .PHONY : help
 
 

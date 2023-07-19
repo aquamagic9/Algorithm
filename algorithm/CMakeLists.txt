@@ -72,9 +72,17 @@ add_executable(2447 BOJ/2447.cpp)
 add_executable(10101 BOJ/10101.cpp)
 add_executable(14503 BOJ/14503.cpp)
 add_executable(3040 BOJ/3040.cpp)
+add_executable(11403 BOJ/11403.cpp)
 
 
 
 
 add_executable(1992_2 resolve/1992_2.cpp)
 add_executable(9012_2 resolve/9012_2.cpp)
+
+
+add_executable(0710_entrance_exam samsung/0710_entrance_exam.cpp)
+add_executable(0710_entrance_exam2 samsung/0710_entrance_exam2.cpp)
+add_executable(0718_Q1 samsung/0718_Q1.cpp)
+add_executable(0718_Q2 samsung/0718_Q2.cpp)
+add_executable(0718_Q3 samsung/0718_Q3.cpp)

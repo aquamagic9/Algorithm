@@ -87,3 +87,5 @@ add_executable(0718_Q1 samsung/0718_Q1.cpp)
 add_executable(0718_Q2 samsung/0718_Q2.cpp)
 add_executable(0718_Q3 samsung/0718_Q3.cpp)
 add_executable(0719_Q4 samsung/0719_Q4.cpp)
+add_executable(0719_Q5 samsung/0719_Q5.cpp)
+

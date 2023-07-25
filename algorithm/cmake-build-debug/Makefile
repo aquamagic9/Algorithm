@@ -1052,6 +1052,19 @@ network/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/0719_Q4.dir/build.make CMakeFiles/0719_Q4.dir/build
 .PHONY : 0719_Q4/fast
 
+#=============================================================================
+# Target rules for targets named 0719_Q5
+
+# Build rule for target.
+0719_Q5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 0719_Q5
+.PHONY : 0719_Q5
+
+# fast build rule for target.
+0719_Q5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0719_Q5.dir/build.make CMakeFiles/0719_Q5.dir/build
+.PHONY : 0719_Q5/fast
+
 BOJ/10101.o: BOJ/10101.cpp.o
 .PHONY : BOJ/10101.o
 
@@ -2780,6 +2793,30 @@ samsung/0719_Q4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/0719_Q4.dir/build.make CMakeFiles/0719_Q4.dir/samsung/0719_Q4.cpp.s
 .PHONY : samsung/0719_Q4.cpp.s
 
+samsung/0719_Q5.o: samsung/0719_Q5.cpp.o
+.PHONY : samsung/0719_Q5.o
+
+# target to build an object file
+samsung/0719_Q5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0719_Q5.dir/build.make CMakeFiles/0719_Q5.dir/samsung/0719_Q5.cpp.o
+.PHONY : samsung/0719_Q5.cpp.o
+
+samsung/0719_Q5.i: samsung/0719_Q5.cpp.i
+.PHONY : samsung/0719_Q5.i
+
+# target to preprocess a source file
+samsung/0719_Q5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0719_Q5.dir/build.make CMakeFiles/0719_Q5.dir/samsung/0719_Q5.cpp.i
+.PHONY : samsung/0719_Q5.cpp.i
+
+samsung/0719_Q5.s: samsung/0719_Q5.cpp.s
+.PHONY : samsung/0719_Q5.s
+
+# target to generate assembly for a file
+samsung/0719_Q5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0719_Q5.dir/build.make CMakeFiles/0719_Q5.dir/samsung/0719_Q5.cpp.s
+.PHONY : samsung/0719_Q5.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2794,6 +2831,7 @@ help:
 	@echo "... 0718_Q2"
 	@echo "... 0718_Q3"
 	@echo "... 0719_Q4"
+	@echo "... 0719_Q5"
 	@echo "... 10101"
 	@echo "... 1052"
 	@echo "... 10799"
@@ -3076,6 +3114,9 @@ help:
 	@echo "... samsung/0719_Q4.o"
 	@echo "... samsung/0719_Q4.i"
 	@echo "... samsung/0719_Q4.s"
+	@echo "... samsung/0719_Q5.o"
+	@echo "... samsung/0719_Q5.i"
+	@echo "... samsung/0719_Q5.s"
 .PHONY : help
 
 

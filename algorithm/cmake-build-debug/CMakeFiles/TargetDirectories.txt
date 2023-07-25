@@ -70,5 +70,6 @@
 /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/0718_Q2.dir
 /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/0718_Q3.dir
 /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/0719_Q4.dir
+/Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/0719_Q5.dir
 /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/hyuncho/CLionProjects/git_algorithm/algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir

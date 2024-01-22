@@ -18,6 +18,8 @@ add_executable(H_index Programmers/H_index.cpp)
 add_executable(target_number Programmers/target_number.cpp)
 add_executable(feature_development Programmers/feature_development.cpp)
 add_executable(network Programmers/network.cpp)
+add_executable(clothes Programmers/clothes.cpp)
+
 
 
 
@@ -68,6 +70,7 @@ add_executable(1439 BOJ/1439.cpp)
 add_executable(10799 BOJ/10799.cpp)
 add_executable(1992 BOJ/1992.cpp)
 add_executable(9012 BOJ/9012.cpp)
+add_executable(11651 BOJ/11651.cpp)
 add_executable(2447 BOJ/2447.cpp)
 add_executable(10101 BOJ/10101.cpp)
 add_executable(14503 BOJ/14503.cpp)

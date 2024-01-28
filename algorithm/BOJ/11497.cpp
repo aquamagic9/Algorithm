@@ -41,17 +41,17 @@ void FindMinStep(vector<int> v)
         }
     }
 
-    int min = v.back() - v.front();
+    int max = 0;
     for (int i = 0; i < newV.size() - 1; i++) {
-        if (min > abs(newV[i + 1] - newV[i]))
+        if (max < abs(newV[i + 1] - newV[i]))
         {
-            min = abs(newV[i + 1] - newV[i]);
+            max = abs(newV[i + 1] - newV[i]);
         }
     }
-    if (min > abs(newV.front() - newV.back()))
+    if (max < abs(newV.front() - newV.back()))
     {
-        min = abs(newV.front() - newV.back());
+        max = abs(newV.front() - newV.back());
     }
 
-    cout << min << "\n";
+    cout << max << "\n";
 }

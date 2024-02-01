@@ -81,6 +81,7 @@ add_executable(15649 BOJ/15649.cpp)
 add_executable(15650 BOJ/15650.cpp)
 add_executable(11497 BOJ/11497.cpp)
 add_executable(1929 BOJ/1929.cpp)
+add_executable(9663 BOJ/9663.cpp)
 
 
 add_executable(1992_2 resolve/1992_2.cpp)
@@ -96,3 +97,5 @@ add_executable(0719_Q4 samsung/0719_Q4.cpp)
 add_executable(0719_Q5 samsung/0719_Q5.cpp)
 add_executable(0721_Q13 samsung/0721_Q13.cpp)
 
+
+add_executable(Test Test/Test.cpp)

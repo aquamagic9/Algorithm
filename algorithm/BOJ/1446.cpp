@@ -40,7 +40,7 @@ int main()
         routes.push_back(route);
     }
     sort(routes.begin(), routes.end(), CompareRoutes);
-    
+
 
     return 0;
 }

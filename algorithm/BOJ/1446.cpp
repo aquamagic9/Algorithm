@@ -16,17 +16,6 @@ public:
     }
 };
 
-bool CompareRoutes(ShortPass a, ShortPass b)
-{
-    if (a.startPos < b.startPos)
-        return true;
-    if (a.endPos < b.endPos)
-        return true;
-    if (a.distance < b.distance)
-        return true;
-    return false;
-}
-
 int main()
 {
     int N, D;
@@ -37,10 +26,25 @@ int main()
     {
         ShortPass route(0,0,0);
         cin >> route.startPos >> route.endPos >> route.distance;
+        if (route.endPos - route.startPos <= route.distance || route.startPos < 0 || route.endPos > D){
+            continue;
+        }
         routes.push_back(route);
     }
-    sort(routes.begin(), routes.end(), CompareRoutes);
-
+    vector<int> dp(D + 1);
+    for (int i = 0; i < D + 1; i++){
+        dp[i] = i;
+    }
+    for (int i = 0; i < D + 1; i++){
+        if (i > 0)
+            dp[i] = min(dp[i], dp[i - 1] + 1);
+        for (int j = 0; j < routes.size(); j++) {
+            if (routes[j].startPos == i){
+                dp[routes[j].endPos] = min(dp[routes[j].endPos], dp[routes[j].startPos] + routes[j].distance);
+            }
+        }
+    }
+    cout << dp[D];
 
     return 0;
 }

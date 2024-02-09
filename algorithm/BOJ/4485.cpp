@@ -1,17 +1,22 @@
 #include <iostream>
 #include <vector>
+#include <queue>
 #define MAX 125*125*10
 using namespace std;
 vector<vector<int>> CreateArr(int N);
 void FindShortValue(vector<vector<int>> &v, int N);
+int dx[] = {0,0,1,-1};
+int dy[] = {1,-1,0,0};
 int cnt = 1;
 int main()
 {
     int N = 1;
 
-    while (N != 0)
+    while (true)
     {
         cin >> N;
+        if (N == 0)
+            break;
         vector<vector<int>> v = CreateArr(N);
         FindShortValue(v, N);
         cnt++;
@@ -39,30 +44,29 @@ void FindShortValue(vector<vector<int>> &v, int N)
     vector<vector<int>> visitValueArr;
     for (int i = 0; i < N; i++)
     {
-        vector<int> tmp(N, 0);
+        vector<int> tmp(N, MAX);
         visitValueArr.push_back(tmp);
     }
-    for (int i = 0; i < N; i++)
+    queue<pair<int, int>> q;
+    q.push(make_pair(0, 0));
+    visitValueArr[0][0] = v[0][0];
+    while (!q.empty())
     {
-        for (int j = 0; j < N; j++)
-        {
-            if (i == 0 && j == 0)
+        int x = q.front().second;
+        int y = q.front().first;
+        q.pop();
+        for(int i = 0; i < 4; i++){
+            int nx = x + dx[i];
+            int ny = y + dy[i];
+
+            if (nx >= 0 && ny >= 0 && nx < N && ny < N)
             {
-                visitValueArr[i][j] = v[i][j];
-                continue;
-            }
-            int leftValue = MAX, upValue = MAX;
-            if (j - 1 >= 0){
-                leftValue = visitValueArr[i][j - 1];
-            }
-            if (i - 1 >= 0){
-                upValue = visitValueArr[i - 1][j];
-            }
-            if (leftValue < upValue){
-                visitValueArr[i][j] = v[i][j] + leftValue;
-            }
-            else {
-                visitValueArr[i][j] = v[i][j] + upValue;
+                if (visitValueArr[ny][nx] > visitValueArr[y][x] + v[ny][nx])
+                {
+                    visitValueArr[ny][nx] = visitValueArr[y][x] + v[ny][nx];
+                    q.push(make_pair(ny, nx));
+                }
+
             }
         }
     }

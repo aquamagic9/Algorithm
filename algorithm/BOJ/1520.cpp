@@ -1,56 +1,46 @@
 #include <iostream>
 #include <vector>
-#include <stack>
 using namespace std;
 
+int dfs(int x, int y);
+
+int dx[] = {1,0,-1,0};
+int dy[] = {0,1,0,-1};
+vector<vector<int>> v, dp;
+int N, M;
 int main()
 {
-    int N, M;
-
     cin >> M >> N;
-    vector<vector<int>> v, visit;
     for (int i = 0; i < M; i++)
     {
-        vector<int> tmp(N, 0);
-        visit.push_back(tmp);
+        vector<int> tmp(N, -1);
+        dp.push_back(tmp);
         for (int j = 0; j < N; j++)
         {
             cin >> tmp[j];
         }
         v.push_back(tmp);
     }
+    cout << dfs(N - 1, M - 1);
 
-    stack<pair<int, int>> stk;
-    stk.push(make_pair(0,0));
-    visit[0][0] = 1;
-    while(!stk.empty())
-    {
-        pair<int, int> value = stk.top();
-        stk.pop();
-        int y = value.first;
-        int x = value.second;
-        if (y - 1 >= 0 && v[y][x] > v[y - 1][x] && visit[y - 1][x] == 0)
+    return 0;
+}
+
+int dfs(int x, int y)
+{
+    if (dp[y][x] != -1)
+        return dp[y][x];
+    if (x == 0 && y == 0)
+        return 1;
+    dp[y][x] = 0;
+    for (int i = 0; i < 4; i++) {
+        int nx = x + dx[i];
+        int ny = y + dy[i];
+        if (nx >= 0 && ny >= 0 && nx < N && ny < M && v[ny][nx] > v[y][x])
         {
-            stk.push(make_pair(y - 1, x));
-            visit[y - 1][x] = 1;
-        }
-        if (x - 1 >= 0 && v[y][x] > v[y][x - 1] && visit[y][x - 1] == 0)
-        {
-            stk.push(make_pair(y, x - 1));
-            visit[y][x - 1] = 1;
-        }
-        if (y + 1 < M && v[y][x] > v[y + 1][x] && visit[y + 1][x] == 0)
-        {
-            stk.push(make_pair(y + 1, x));
-            visit[y + 1][x] = 1;
-        }
-        if (x + 1 < N && v[y][x] > v[y][x + 1] && visit[y][x + 1] == 0)
-        {
-            stk.push(make_pair(y, x + 1));
-            visit[y][x + 1] = 1;
+            dp[y][x] += dfs(nx, ny);
         }
     }
 
-
-    return 0;
+    return dp[y][x];
 }

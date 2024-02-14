@@ -38,7 +38,7 @@ void FindNumberOfCases()
                 dp[j] = 1;
                 continue;
             }
-            dp[j] += (j - coinValue >= 0 ? dp[j - coinValue] : 0);
+            dp[j] += dp[j - coinValue];
         }
     }
 

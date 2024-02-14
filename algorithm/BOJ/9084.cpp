@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 void FindNumberOfCases();
-int dp[10001][10001] = {0, };
+int dp[10001] = {0, };
 int main()
 {
     int T;
@@ -22,29 +22,27 @@ void FindNumberOfCases()
 
     cin >> N;
     vector<int> coins(N);
+    for (int i = 0; i < 10001; i++)
+        dp[i] = 0;
     for (int i = 0; i < N; i++)
-    {
         cin >> coins[i];
-        for (int j = 0; j < 10001;j++)
-            dp[coins[i]][j] = 0;
-        dp[coins[i]][coins[i]] = 1;
-    }
     cin >> M;
     for (int i = 0; i < N; i++)
     {
         int coinValue = coins[i];
-        for (int j = 1; j <= M; j++)
+        dp[coinValue]++;
+        for (int j = coinValue + 1; j <= M; j++)
         {
             if (i == 0 && j % coinValue == 0)
             {
-                dp[coinValue][j] = 1;
+                dp[j] = 1;
                 continue;
             }
-            dp[coinValue][j] += dp[coins[i - 1]][j] + (j - coinValue >= 0 ? dp[coinValue][j - coinValue] : 0);
+            dp[j] += (j - coinValue >= 0 ? dp[j - coinValue] : 0);
         }
     }
 
-    cout << dp[coins[N-1]][M] << '\n';
+    cout << dp[M] << '\n';
 }
 
 //index : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20

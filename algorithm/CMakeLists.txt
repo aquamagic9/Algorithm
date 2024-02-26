@@ -117,6 +117,8 @@ add_executable(7576 BOJ/7576.cpp)
 add_executable(1912 BOJ/1912.cpp)
 add_executable(9020 BOJ/9020.cpp)
 add_executable(16236 BOJ/16236.cpp)
+add_executable(QuickSort BOJ/QuickSort.cpp)
+add_executable(13565 BOJ/13565.cpp)
 
 
 

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#include <cmath>
 
 using namespace std;
 
@@ -12,7 +13,7 @@ bool isPrimeNumber(int num)
     if (primeNumber[num] != -1){
         return primeNumber[num] == 1;
     }
-    while (k != num){
+    while (k <= sqrt(num)){
         if (num % k == 0){
             cnt++;
         }

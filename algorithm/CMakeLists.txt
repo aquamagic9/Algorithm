@@ -123,6 +123,7 @@ add_executable(15686 BOJ/15686.cpp)
 add_executable(2437 BOJ/2437.cpp)
 add_executable(25644 BOJ/25644.cpp)
 add_executable(2170 BOJ/2170.cpp)
+add_executable(17070 BOJ/17070.cpp)
 
 
 

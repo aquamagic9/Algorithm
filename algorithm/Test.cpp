@@ -33,3 +33,41 @@ int main(){
         cout << i << " ";
 
 }
+vector<int> v;
+void MakePermutation(int n, int r, int depth)
+{
+    if (depth == r)
+        return;
+    for (int i = depth; i < n; i++)
+    {
+        swap(v[i], v[depth]);
+        MakePermutation(n, r, depth + 1);
+        swap(v[i], v[depth]);
+    }
+}
+int n, k;//v's size;
+void combi(int start, vector<int> &v)
+{
+    if (v.size() == k)
+        return;
+    for (int i = start + 1; i < n; i++){
+        v.push_back(i);
+        combi(i, v);
+        v.pop_back();
+    }
+}
+
+vector<string> split(string input, string delimiter)
+{
+    vector<string> ret;
+    string token = "";
+    long long pos;
+    while ((pos = input.find(delimiter)) != string::npos)
+    {
+        token = input.substr(0, pos);
+        ret.push_back(token);
+        input.erase(0, pos + input.length());
+    }
+    ret.push_back(input);
+    return ret;
+}

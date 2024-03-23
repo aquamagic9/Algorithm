@@ -1,4 +1,6 @@
 #include <iostream>
+#include <vector>
+#include <algorithm>
 using namespace std;
 
 int main()
@@ -18,5 +20,14 @@ int main()
         cout << "c == d" << endl;
     else
         cout << "c != d" << endl;
+
+    vector<int> v;
+    v.push_back(1);
+    v.push_back(2);
+    v.push_back(3);
+    v.push_back(4);
+    v.push_back(5);
+    vector<int>::reverse_iterator ri = find(v.rbegin(), v.rend(), 3);
+    v.erase(--ri.base());
     return 0;
 }

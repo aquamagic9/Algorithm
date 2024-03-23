@@ -8,7 +8,7 @@ int main()
 
     cin >> N >> r >> c;
 
-    long int result = 0;
+    int result = 0;
     while (N != 1){
         int width = pow(2, N);
         int height = pow(2, N);

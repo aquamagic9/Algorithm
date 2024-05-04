@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-vector<char> parentheses;
+char parentheses[4] = {'(', ')', '[', ']'};
 
 bool isParentheses(char c){
     for (char p : parentheses){
@@ -15,7 +15,7 @@ bool isParentheses(char c){
 }
 
 bool isBalance(char openP, char closeP){
-    for (int i = 0; i < parentheses.size(); i += 2){
+    for (int i = 0; i < size(parentheses); i += 2){
         if (openP == parentheses[i] && closeP == parentheses[i + 1]){
             return true;
         }
@@ -25,10 +25,6 @@ bool isBalance(char openP, char closeP){
 
 int main(){
     string s;
-    parentheses.push_back('(');
-    parentheses.push_back(')');
-    parentheses.push_back('[');
-    parentheses.push_back(']');
 
     while (getline(cin, s)){
         stack<int> stk;

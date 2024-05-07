@@ -166,6 +166,7 @@ add_executable(QuickSort BOJ/QuickSort.cpp)
 
 add_executable(1992_2 resolve/1992_2.cpp)
 add_executable(9012_2 resolve/9012_2.cpp)
+add_executable(15686_2 resolve/15686_2.cpp)
 
 
 add_executable(0710_entrance_exam samsung/0710_entrance_exam.cpp)

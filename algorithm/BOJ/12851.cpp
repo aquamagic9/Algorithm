@@ -26,17 +26,11 @@ int main()
             cnt++;
             continue;
         }
-        if (p + 1 <= 100000 && (dp[p + 1] == 0 || dp[p + 1] >= time + 1)){
-            dp[p + 1] = time + 1;
-            q.push({p + 1, time + 1});
-        }
-        if (p - 1 >= 0 && (dp[p - 1] == 0 || dp[p - 1] >= time + 1)){
-            dp[p - 1] = time + 1;
-            q.push({p - 1, time + 1});
-        }
-        if (p * 2 <= 100000 && (dp[p * 2] == 0 || dp[p * 2] >= time + 1)){
-            dp[p * 2] = time + 1;
-            q.push({p * 2, time + 1});
+        for (int next : {p + 1, p - 1, p * 2}){
+            if (next >= 0 && next <= 100000 && (dp[next] == 0 || dp[next] >= time + 1)){
+                dp[next] = time + 1;
+                q.push({next, time + 1});
+            }
         }
     }
     cout << result << "\n" << cnt;

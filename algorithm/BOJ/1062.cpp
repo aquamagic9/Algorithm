@@ -60,6 +60,12 @@ int main()
     sort(newAlphabet.begin(), newAlphabet.end());
     newAlphabet.erase(unique(newAlphabet.begin(), newAlphabet.end()), newAlphabet.end());
     K -= defaultAlphabetSize;
+    if (K < 0){
+        cout << 0;
+        return 0;
+    }
+    if (K > newAlphabet.size())
+        K = newAlphabet.size();
 
     vector<int> v;
     combi(-1, v);

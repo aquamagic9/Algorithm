@@ -187,6 +187,7 @@ add_executable(1992_2 resolve/1992_2.cpp)
 add_executable(9012_2 resolve/9012_2.cpp)
 add_executable(15686_2 resolve/15686_2.cpp)
 add_executable(9935_2 resolve/9935_2.cpp)
+add_executable(1094_2 resolve/1094_2.cpp)
 
 
 add_executable(0710_entrance_exam samsung/0710_entrance_exam.cpp)

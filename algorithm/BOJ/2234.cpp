@@ -3,13 +3,13 @@
 using namespace std;
 
 bool inline isWall(int a, int bit){
-    return a & 1 << bit;
+    return a & (1 << bit);
 }
-int N, M, maxCnt = 0, roomCnt = 0;
+int N, M, maxCnt = 0, roomCnt = 0, maxConnectCnt = 0;
 int map[51][51];
 int visit[51][51];
 int dx[4] = {-1, 0,1,0};
-int dy[4] = {0,1,0, -1};
+int dy[4] = {0,-1,0, 1};
 
 int bfs(pair<int, int> pos)
 {
@@ -25,7 +25,7 @@ int bfs(pair<int, int> pos)
         for (int i = 0; i < 4; i++){
             int nx = x + dx[i];
             int ny = y + dy[i];
-            if (nx >= 0 && nx < N && ny >= 0 && ny < M && visit[ny][nx] == 0 && !isWall(visit[y][x], i)){
+            if (nx >= 0 && nx < N && ny >= 0 && ny < M && visit[ny][nx] == 0 && !isWall(map[y][x], i)){
                 q.push({nx, ny});
                 visit[ny][nx] = 1;
                 cnt++;
@@ -52,6 +52,19 @@ int main()
             }
         }
     }
+    for(int y = 0; y < M; y++) {
+        for (int x = 0; x < N; x++) {
+            for (int i = 0; i < 4; i++){
+                if (isWall(map[y][x], i)){
+                    fill(&visit[0][0], &visit[50][50], 0);
+                    map[y][x] -= (1 << i);
+                    maxConnectCnt = max(maxConnectCnt, bfs({x, y}));
+                    map[y][x] += (1 << i);
+                }
+            }
+        }
+    }
+    cout << roomCnt << "\n" << maxCnt << "\n" << maxConnectCnt;
 
     return 0;
 }

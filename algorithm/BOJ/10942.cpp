@@ -5,18 +5,13 @@ using namespace std;
 int n, m;
 int dp[2001][2001];
 
-bool check(int j, int i)
+bool inline check(int j, int i)
 {
-    while (i >= 1 && j >= 1 && j <= n){
-        if (dp[j][i] != 1)
-            return false;
-        i -= 2;
-        j += 1;
-    }
-    return true;
+    return !(i >= 1 && j >= 1 && j <= n && dp[j][i] != 1);
 }
 int main()
 {
+    cin.tie(NULL); cout.tie(NULL); ios_base::sync_with_stdio(false);
     cin >> n;
     vector<int> v(n + 1);
     for (int i = 1; i <= n; i++){

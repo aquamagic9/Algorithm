@@ -5,7 +5,9 @@
 #include <cmath>
 using namespace std;
 
-float visitCost[101];
+int n;
+float weightSum = 0;
+float visit[101];
 vector<pair<int, float>> v[101];
 
 float inline findCost(pair<float, float> a, pair<float, float> b)
@@ -13,34 +15,43 @@ float inline findCost(pair<float, float> a, pair<float, float> b)
     return sqrt((a.first - b.first) * (a.first - b.first) + (a.second - b.second) * (a.second - b.second));
 }
 
-void dijkstra(int node){
-    priority_queue<pair<int, float>, vector<pair<int, float>>, greater<pair<int, float>>> pq;
+struct compare{
+    bool operator()(pair<int, float> a, pair<int, float> b)
+    {
+        return a.second > b.second;
+    }
+};
 
-    pq.push(make_pair(node, 0));
-    visitCost[node] = 0;
-    while (!pq.empty())
+void prim(int node){
+    priority_queue<pair<int, float>, vector<pair<int, float>>, compare> pq;
+
+    for (int i = 0; i < v[node].size(); i++){
+        pq.push(v[node][i]);
+    }
+    visit[node] = 1;
+
+    int cnt = 0;
+    while (cnt < n - 1)
     {
         int startNode = pq.top().first;
         float cost = pq.top().second;
         pq.pop();
 
-        if (visitCost[startNode] < cost)
+        if (visit[startNode] == 1)
             continue;
-
+        visit[startNode] = 1;
+        weightSum += cost;
+        cnt++;
         for (int i = 0; i < v[startNode].size(); i++){
             int nextNode = v[startNode][i].first;
-            float nextCost = cost + v[startNode][i].second;
-            if (visitCost[nextNode] > nextCost){
-                pq.push(make_pair(nextNode, nextCost));
-                visitCost[nextNode] = nextCost;
+            if (visit[nextNode] == 0){
+                pq.push(v[startNode][i]);
             }
         }
     }
 }
 int main()
 {
-    int n;
-
     cin >> n;
     vector<pair<float, float>> pos;
     for (int i = 0; i < n ; i++){
@@ -55,11 +66,10 @@ int main()
             v[i].push_back({j, findCost(pos[i], pos[j])});
         }
     }
-    fill(visitCost, &visitCost[101], 100000);
-    dijkstra(0);
+    prim(0);
     
     cout.precision(3);
-    cout << visitCost[n - 1];
+    cout << weightSum;
 
     return 0;
 }

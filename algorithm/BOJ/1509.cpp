@@ -28,6 +28,20 @@ void dfs(int index, int cnt)
     }
 }
 
+void sol()
+{
+    int dp[strSize + 1];
+    fill(dp, dp + strSize + 1, 2501);
+    dp[0] = 0;
+    for (int i = 0; i < strSize; i++){
+        for (int j = 0; j < v[i].size(); j++){
+            int index = i + v[i][j] + 1;
+            dp[index] = min(dp[index], dp[i] + 1);
+        }
+    }
+    cout << dp[strSize];
+}
+
 int main()
 {
     cin.tie(NULL); cout.tie(NULL); ios_base::sync_with_stdio(false);
@@ -43,8 +57,7 @@ int main()
             }
         }
     }
-    dfs(0, 0);
-    cout << minValue;
+    sol();
 
     return 0;
 }

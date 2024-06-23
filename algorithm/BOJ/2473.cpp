@@ -9,52 +9,35 @@ int main()
 
     cin >> n;
     vector<int> v(n);
+    vector<int> answer(3);
     for (int i = 0; i < n; i++){
         cin >> v[i];
     }
     sort(v.begin(), v.end());
-    int sIndex = 0, eIndex = n - 1;
-    int sum = v[sIndex] + v[eIndex];
-    int index1 = sIndex, index2 = eIndex;
-    while (sIndex < eIndex){
-        int newSum = v[sIndex] + v[eIndex];
-
-        if (abs(sum) > abs(newSum)){
-            sum = newSum;
-            index1 = sIndex;
-            index2 = eIndex;
-        }
-        if (newSum > 0){
-            eIndex--;
-        }
-        else {
-            sIndex++;
-        }
-    }
-    vector<int> resultV;
-
-    resultV.push_back(v[index1]);
-    resultV.push_back(v[index2]);
-    if (index1 == sIndex || index2 == sIndex){
-        int a = 1000000000, b = 1000000000;
-        if (index1 - 1 >= 0){
-            a = v[index1 - 1];
-        }
-        if (index2 + 1 < n){
-            b = v[index2 + 1];
-        }
-        if (abs(a) < abs(b)){
-            sIndex = index1 - 1;
-        }
-        else {
-            sIndex = index2 + 1;
+    int st, ed;
+    long long result = 3000000000;
+    for (int i = 0; i < n - 2; i++){
+        int num = v[i];
+        st = i + 1;
+        ed = n - 1;
+        while (st < ed){
+            long long sum = (long long)num + (long long)v[st] + (long long)v[ed];
+            if (abs(sum) < abs(result)){
+                result = sum;
+                answer[0] = num;
+                answer[1] = v[st];
+                answer[2] = v[ed];
+            }
+            if (sum < 0){
+                st++;
+            }
+            else{
+                ed--;
+            }
         }
     }
-    resultV.push_back(v[sIndex]);
-    sort(resultV.begin(), resultV.end());
-
-    for (int i = 0; i < resultV.size(); i++){
-        cout << resultV[i] << " ";
+    for (int i = 0; i < answer.size(); i++){
+        cout << answer[i] << " ";
     }
 
     return 0;

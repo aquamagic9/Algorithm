@@ -22,6 +22,7 @@ add_executable(clothes Programmers/clothes.cpp)
 add_executable(incomplete_participant Programmers/incomplete_participant.cpp)
 add_executable(phonekemon Programmers/phonekemon.cpp)
 add_executable(best_album Programmers/best_album.cpp)
+add_executable(gps Programmers/gps.cpp)
 
 
 

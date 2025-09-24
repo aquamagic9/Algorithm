@@ -25,6 +25,7 @@ add_executable(best_album Programmers/best_album.cpp)
 add_executable(gps Programmers/gps.cpp)
 add_executable(group_photo Programmers/group_photo.cpp)
 add_executable(RYAN_concerns Programmers/RYAN_concerns.cpp)
+add_executable(little_friends_mahjong Programmers/little_friends_mahjong.cpp)
 
 
 

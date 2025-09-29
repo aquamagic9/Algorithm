@@ -29,6 +29,7 @@ add_executable(little_friends_mahjong Programmers/little_friends_mahjong.cpp)
 add_executable(IU_and_kons_boardgame Programmers/IU_and_kons_boardgame.cpp)
 add_executable(earrings_of_Neo Programmers/earrings_of_Neo.cpp)
 add_executable(kakaofriends_coloring_book Programmers/kakaofriends_coloring_book.cpp)
+add_executable(pedestrian_heaven Programmers/pedestrian_heaven.cpp)
 
 
 

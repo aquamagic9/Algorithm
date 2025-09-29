@@ -53,9 +53,7 @@ bool findConnection(vector<string> &board, Point sp)
 
             Point p = {pDir.p.x + dx[i], pDir.p.y + dy[i] };
             if (boundary(board.size(), board.front().size(), p)){
-                if (board[p.y][p.x] == c) {
-                    return true;
-                }
+                if (board[p.y][p.x] == c) return true;
                 if (!canMove(board[p.y][p.x])) continue;
 
                 PointDir newPDir = {p, i, pDir.breakCnt};

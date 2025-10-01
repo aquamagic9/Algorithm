@@ -30,6 +30,8 @@ add_executable(IU_and_kons_boardgame Programmers/IU_and_kons_boardgame.cpp)
 add_executable(earrings_of_Neo Programmers/earrings_of_Neo.cpp)
 add_executable(kakaofriends_coloring_book Programmers/kakaofriends_coloring_book.cpp)
 add_executable(pedestrian_heaven Programmers/pedestrian_heaven.cpp)
+add_executable(camping Programmers/camping.cpp)
+add_executable(4th_treble Programmers/4th_treble.cpp)
 
 
 

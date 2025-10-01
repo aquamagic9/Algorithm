@@ -32,6 +32,7 @@ add_executable(kakaofriends_coloring_book Programmers/kakaofriends_coloring_book
 add_executable(pedestrian_heaven Programmers/pedestrian_heaven.cpp)
 add_executable(camping Programmers/camping.cpp)
 add_executable(4th_treble Programmers/4th_treble.cpp)
+add_executable(concerns_of_Brian Programmers/concerns_of_Brian.cpp)
 
 
 

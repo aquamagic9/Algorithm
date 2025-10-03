@@ -13,7 +13,7 @@ bool isBigAlphabet(char c){
 
 string solution(string sentence) {
     string answer = "";
-    int alpha[27] = {0,};
+    int alpha[26] = {0,};
 
     for (char c : sentence){
         if (isSmallAlphabet(c))
@@ -85,7 +85,7 @@ int main()
 {
     string sentence = "HaEaLaLaObWORLDb";
     string sentence2 = "SpIpGpOpNpGJqOqA";
-    string sentence3 = "HaEaLaLaObWORLDbSpIpGpOpNpGJqOqAdGcWcFcDdeGfWfLeoBBoKKKAxAxAxAA";
+    string sentence3 = "aAbBbCa";
 
     cout << solution(sentence3);
 

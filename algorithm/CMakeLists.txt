@@ -34,6 +34,7 @@ add_executable(camping Programmers/camping.cpp)
 add_executable(4th_treble Programmers/4th_treble.cpp)
 add_executable(concerns_of_Brian Programmers/concerns_of_Brian.cpp)
 add_executable(duration_of_personal_information_collection Programmers/duration_of_personal_information_collection.cpp)
+add_executable(emoticon_sale Programmers/emoticon_sale.cpp)
 
 
 

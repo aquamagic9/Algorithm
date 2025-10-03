@@ -36,6 +36,7 @@ add_executable(concerns_of_Brian Programmers/concerns_of_Brian.cpp)
 add_executable(duration_of_personal_information_collection Programmers/duration_of_personal_information_collection.cpp)
 add_executable(emoticon_sale Programmers/emoticon_sale.cpp)
 add_executable(maze_escape_command Programmers/maze_escape_command.cpp)
+add_executable(making_deliveries_and_pickups Programmers/making_deliveries_and_pickups.cpp)
 
 
 

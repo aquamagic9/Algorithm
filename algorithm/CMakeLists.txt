@@ -38,6 +38,7 @@ add_executable(emoticon_sale Programmers/emoticon_sale.cpp)
 add_executable(maze_escape_command Programmers/maze_escape_command.cpp)
 add_executable(making_deliveries_and_pickups Programmers/making_deliveries_and_pickups.cpp)
 add_executable(representable_binary_tree Programmers/representable_binary_tree.cpp)
+add_executable(merge_tables Programmers/merge_tables.cpp)
 
 
 

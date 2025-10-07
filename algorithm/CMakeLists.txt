@@ -27,10 +27,10 @@ add_executable(group_photo Programmers/group_photo.cpp)
 add_executable(RYAN_concerns Programmers/RYAN_concerns.cpp)
 add_executable(little_friends_mahjong Programmers/little_friends_mahjong.cpp)
 add_executable(IU_and_kons_boardgame Programmers/IU_and_kons_boardgame.cpp)
-add_executable(earrings_of_Neo Programmers/earrings_of_Neo.cpp)
+#add_executable(earrings_of_Neo Programmers/earrings_of_Neo.cpp)
 add_executable(kakaofriends_coloring_book Programmers/kakaofriends_coloring_book.cpp)
 add_executable(pedestrian_heaven Programmers/pedestrian_heaven.cpp)
-add_executable(camping Programmers/camping.cpp)
+#add_executable(camping Programmers/camping.cpp)
 add_executable(4th_treble Programmers/4th_treble.cpp)
 add_executable(concerns_of_Brian Programmers/concerns_of_Brian.cpp)
 add_executable(duration_of_personal_information_collection Programmers/duration_of_personal_information_collection.cpp)
@@ -40,6 +40,7 @@ add_executable(making_deliveries_and_pickups Programmers/making_deliveries_and_p
 add_executable(representable_binary_tree Programmers/representable_binary_tree.cpp)
 add_executable(merge_tables Programmers/merge_tables.cpp)
 add_executable(drop_1_2_3 Programmers/drop_1_2_3.cpp)
+add_executable(receive_the_report_results Programmers/receive_the_report_results.cpp)
 
 
 

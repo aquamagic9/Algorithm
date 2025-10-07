@@ -41,6 +41,7 @@ add_executable(representable_binary_tree Programmers/representable_binary_tree.c
 add_executable(merge_tables Programmers/merge_tables.cpp)
 add_executable(drop_1_2_3 Programmers/drop_1_2_3.cpp)
 add_executable(receive_the_report_results Programmers/receive_the_report_results.cpp)
+add_executable(find_the_number_of_decimals Programmers/find_the_number_of_decimals.cpp)
 
 
 

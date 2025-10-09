@@ -46,6 +46,7 @@ add_executable(parking_fee_calculation Programmers/parking_fee_calculation.cpp)
 add_executable(sheep_and_wolf Programmers/sheep_and_wolf.cpp)
 add_executable(archery_competition Programmers/archery_competition.cpp)
 add_executable(recommend_newId Programmers/recommend_newId.cpp)
+add_executable(renewal_menu Programmers/renewal_menu.cpp)
 
 
 

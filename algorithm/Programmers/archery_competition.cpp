@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
 
 using namespace std;
 
@@ -47,23 +46,11 @@ void dfs(int arrowCnt, int index, vector<int> &apeach, vector<int> &ryan){
 }
 
 vector<int> solution(int n, vector<int> info) {
-    result.assign(info.size(), 0);
     maxDiff = 0;
     vector<int> ryan(info.size(), 0);
 
+    result.push_back(-1);
     dfs(n, 0, info, ryan);
-
-    int sumA = 0, sumR = 0;
-    for (int i = 0; i < info.size(); i++){
-        if (info[i] < result[i])
-            sumR += (result[i] != 0) * (10 - i);
-        else
-            sumA += (info[i] != 0) * (10 - i);
-    }
-    if (sumA >= sumR){
-        result.clear();
-        result.push_back(-1);
-    }
 
     return result;
 }

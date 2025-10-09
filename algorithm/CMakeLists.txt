@@ -48,6 +48,7 @@ add_executable(archery_competition Programmers/archery_competition.cpp)
 add_executable(recommend_newId Programmers/recommend_newId.cpp)
 add_executable(renewal_menu Programmers/renewal_menu.cpp)
 add_executable(unbroken_building Programmers/unbroken_building.cpp)
+add_executable(search_ranking Programmers/search_ranking.cpp)
 
 
 

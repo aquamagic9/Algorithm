@@ -39,8 +39,8 @@ vector<string> makeCourses(vector<string> &orders, vector<int> &course) {
                 newCourses.push_back(newCourse.first);
             }
         }
-        sort(newCourses.begin(), newCourses.end());
     }
+    sort(newCourses.begin(), newCourses.end());
 
     return newCourses;
 }

@@ -51,6 +51,7 @@ add_executable(unbroken_building Programmers/unbroken_building.cpp)
 add_executable(search_ranking Programmers/search_ranking.cpp)
 add_executable(shared_taxi_fare Programmers/shared_taxi_fare.cpp)
 add_executable(input_ad Programmers/input_ad.cpp)
+add_executable(card_matching Programmers/card_matching.cpp)
 
 
 
